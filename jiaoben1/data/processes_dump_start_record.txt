@@ -1,0 +1,61 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+Failed to get information of process Id: 348
+Failed to get information of process Id: 476
+Failed to get information of process Id: 544
+Failed to get information of process Id: 568
+Failed to get information of process Id: 620
+Failed to get information of process Id: 660
+Failed to get information of process Id: 668
+Failed to get information of process Id: 684
+Failed to get information of process Id: 796
+Failed to get information of process Id: 924
+Failed to get information of process Id: 992
+Failed to get information of process Id: 480
+Failed to get information of process Id: 908
+Failed to get information of process Id: 1032
+Failed to get information of process Id: 1068
+Failed to get information of process Id: 1092
+Failed to get information of process Id: 1232
+Failed to get information of process Id: 1440
+Failed to get information of process Id: 1584
+Failed to get information of process Id: 1692
+Failed to get information of process Id: 1728
+Failed to get information of process Id: 1780
+Failed to get information of process Id: 1856
+Failed to get information of process Id: 1924
+Failed to get information of process Id: 1172
+Failed to get information of process Id: 1332
+Failed to get information of process Id: 1404
+Failed to get information of process Id: 1528
+Failed to get information of process Id: 1460
+Failed to get information of process Id: 2356
+Failed to get information of process Id: 2708
+Failed to get information of process Id: 2812
+Failed to get information of process Id: 3036
+Failed to get information of process Id: 2348
+Failed to get information of process Id: 2288
+Failed to get information of process Id: 280
+Failed to get information of process Id: 2296
+Failed to get information of process Id: 1912
+Failed to get information of process Id: 1600
+Failed to get information of process Id: 2376
+PROCESS 0xd18       qqpctray.exe
+PROCESS 0xe24       creative cloud.exe
+PROCESS 0x91c       adobeipcbroker.exe
+PROCESS 0x188       qqpcnetflow.exe
+PROCESS 0x1064      qqpcrealtimespeedup.exe
+PROCESS 0x1088      adobe desktop service.exe
+PROCESS 0x139c      adobe cef helper.exe
+PROCESS 0x1538      adobe cef helper.exe
+PROCESS 0x1600      coresync.exe
+PROCESS 0x1608      ccxprocess.exe
+PROCESS 0x1610      node.exe
+Failed to get information of process Id: 6140
+PROCESS 0x178c      sogoucloud.exe
+PROCESS 0x1b04      qq.exe
+PROCESS 0x1684      txplatform.exe
+PROCESS 0xf98       youkumediacenter.exe
+Failed to get information of process Id: 4936
+PROCESS 0x1a10      xigui32.exe
+PROCESS 0x18a0      vugen.exe

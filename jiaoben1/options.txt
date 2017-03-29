@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\lr\jiaoben1
+-ID:\Program Files\HP\LoadRunner\include
+-ec:\users\administrator\lr\jiaoben1\\logfile.log
+c:\users\administrator\lr\jiaoben1\\combined_jiaoben1.c
+c:\users\administrator\lr\jiaoben1\\pre_cci.c
