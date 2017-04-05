@@ -94,7 +94,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2017-03-29 - 22:15:16" eTime="2017-03-29 - 22:15:16" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2017-04-05 - 08:44:23" eTime="2017-04-05 - 08:44:23" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -105,7 +105,7 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>pt2gguin=o1548790965; DOMAIN=s.pc.qq.com</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:16]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:23]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Add Cookie]]></Disp>
 </NodeArgs>
@@ -113,7 +113,7 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>RK=LhU3ie1LeC; DOMAIN=s.pc.qq.com</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:16]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:23]]></Time>
 <NodeArgs eType="General" icon="4" nRep="10" >
 <Disp><![CDATA[Service: Add Cookie]]></Disp>
 </NodeArgs>
@@ -121,7 +121,7 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>ptcz=4fe436445ba239f7ee83daa5b69b3f4ac2bbe795bff263bbc513b0d6d3848b33; DOMAIN=s.pc.qq.com</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:16]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:23]]></Time>
 <NodeArgs eType="General" icon="4" nRep="11" >
 <Disp><![CDATA[Service: Add Cookie]]></Disp>
 </NodeArgs>
@@ -129,7 +129,7 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>pt2gguin=o1548790965; DOMAIN=c.gj.qq.com</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:16]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:23]]></Time>
 <NodeArgs eType="General" icon="4" nRep="12" >
 <Disp><![CDATA[Service: Add Cookie]]></Disp>
 </NodeArgs>
@@ -137,7 +137,7 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>RK=LhU3ie1LeC; DOMAIN=c.gj.qq.com</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:16]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:23]]></Time>
 <NodeArgs eType="General" icon="4" nRep="13" >
 <Disp><![CDATA[Service: Add Cookie]]></Disp>
 </NodeArgs>
@@ -145,7 +145,7 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>ptcz=4fe436445ba239f7ee83daa5b69b3f4ac2bbe795bff263bbc513b0d6d3848b33; DOMAIN=c.gj.qq.com</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:16]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:23]]></Time>
 <NodeArgs eType="General" icon="4" nRep="14" >
 <Disp><![CDATA[Service: Add Cookie]]></Disp>
 </NodeArgs>
@@ -153,7 +153,7 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Url: WebTours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:17]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:25]]></Time>
 <NodeArgs eType="General" icon="5" nRep="15" status="Passed" >
 <Disp><![CDATA[Url: WebTours]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -164,7 +164,7 @@
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Submit Form: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:17]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:26]]></Time>
 <NodeArgs eType="General" icon="6" nRep="16" status="Passed" >
 <Disp><![CDATA[Submit Form: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH">
@@ -175,7 +175,7 @@
 <Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Image: Search Flights Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><FONT COLOR=#FF0031>Step creation failed</CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:17]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:26]]></Time>
 <NodeArgs eType="General" icon="7" nRep="17" status="Failed" >
 <Disp><![CDATA[Image: Search Flights Button]]></Disp>
 </NodeArgs>
@@ -183,12 +183,12 @@
 <Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2017-03-29 - 22:15:17]]></Time>
+<Time><![CDATA[2017-04-05 - 08:44:26]]></Time>
 <NodeArgs eType="General" icon="1" nRep="18" status="Failed" >
 <Disp><![CDATA[Script Aborted!]]></Disp>
 </NodeArgs>
 </Step>
-<Summary sTime="2017-03-29 - 22:15:16" eTime="2017-03-29 - 22:15:17" passed="2" failed="2" warnings="0" ></Summary>
+<Summary sTime="2017-04-05 - 08:44:23" eTime="2017-04-05 - 08:44:26" passed="2" failed="2" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Failed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -199,12 +199,12 @@
 </DIter>
 <Action rID="T15">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2017-03-29 - 22:15:17" eTime="2017-03-29 - 22:15:17" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2017-04-05 - 08:44:26" eTime="2017-04-05 - 08:44:26" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="21" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2017-03-29 - 22:15:16" eTime="2017-03-29 - 22:15:17" passed="2" failed="2" warnings="0" ></Summary>
+<Summary sTime="2017-04-05 - 08:44:23" eTime="2017-04-05 - 08:44:26" passed="2" failed="2" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
 <Disp><![CDATA[Test jiaoben1 Summary]]></Disp>
 </NodeArgs>
