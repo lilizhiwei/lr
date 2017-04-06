@@ -1,0 +1,213 @@
+[Network Analyzer ( 66c:1908)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 66c:1908)] Load Network Traffic Analyzers:
+[Network Analyzer ( 66c:1908)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 66c:1908)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 66c:1908)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 66c:1908)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 66c:1908)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer ( 66c:1908)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 66c:1908)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 66c:1ae0)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 5b0)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Net An. Warning  ( 66c: 5b0)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  ( 66c: 5b0)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  ( 66c: 5b0)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Error    ( 66c: 5b0)] Request Connection: Remote Server @ 0.0.0.0:1080   (Service=?)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 0)
+[Network Analyzer ( 66c: 5b0)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 5b0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( 66c:1ae0)] "GET /WebTours/"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Client -> Server : 260 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Server -> Client : 312 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/header.html"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Client -> Server : 313 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Server -> Client : 692 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Client -> Server : 344 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Server -> Client : 765 bytes  (Service=HTTP)
+[Network Analyzer ( 66c: 5b0)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 2f8)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 5b0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( 66c:1ae0)] "GET /WebTours/welcome.pl?signOff=true"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  2) Client -> Server : 325 bytes (Service=HTTP)
+[Network Analyzer ( 66c: 2f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Client -> Server : 345 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Server -> Client : 818 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  2) Server -> Client : 391 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  2) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Client -> Server : 434 bytes (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/home.html"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Client -> Server : 429 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Server -> Client : 165 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Server -> Client : 1322 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Server -> Client : 1528 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/JSFormSubmit.js"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  2) Client -> Server : 422 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  2) Server -> Client : 179 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  2) Server -> Client : 291 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Client -> Server : 444 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Server -> Client : 679 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /favicon.ico"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Client -> Server : 299 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( 66c: 2f8)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 2f8)] Request Connection: Remote Server @ 123.6.1.27:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( 66c:1ae0)] "GET /navigate/adc/adc_loader.js?v=20160326171611"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Client -> Server : 470 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 392 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 340 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  3) Connection Terminated (by Client)
+[Web Request      ( 66c:1ae0)] "GET /navigate/adc/v3/engine_loader_v3.js"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Client -> Server : 462 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 394 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 13091 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /navigate/adc/json2.js"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Client -> Server : 448 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 393 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 2158 bytes  (Service=HTTP)
+[Network Analyzer ( 66c: 2f8)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 5b0)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 2f8)] Request Connection: Remote Server @ 123.6.1.27:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( 66c:1ae0)] "GET /navigate/adc/jquery.min.js?ver=3"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  5) Client -> Server : 459 bytes (Service=HTTP)
+[Network Analyzer ( 66c: 5b0)] Request Connection: Remote Server @ 111.161.111.119:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      ( 66c:1ae0)] "GET /fcgi-bin/microreport?gjguid=5dc8552377fffed4c9e553f9395a5e18&type=10&reserve1=2&bid=1&rand=0.9214218282663475&refer=http%3A%2F%2Flocalhost%3A1080%2FWebTours%2F&reserve3=348832"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  6) Client -> Server : 619 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  5) Server -> Client : 394 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  5) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  5) Server -> Client : 15455 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  6) Server -> Client : 212 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /navigate/adc/velocity.js"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Client -> Server : 451 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 3866 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Server -> Client : 15137 bytes  (Service=HTTP)
+[Network Analyzer ( 66c: 2f8)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 5b0)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Net An. Warning  ( 66c: 2f8)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  ( 66c: 5b0)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  ( 66c: 2f8)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  ( 66c: 5b0)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  ( 66c: 2f8)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Error    ( 66c: 2f8)] Request Connection: Remote Server @ 0.0.0.0:1080   (Service=?)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  ( 66c: 5b0)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Error    ( 66c: 5b0)] Request Connection: Remote Server @ 0.0.0.0:1080   (Service=?)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 0)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( 66c: 2f8)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 2f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( 66c:1ae0)] "POST /WebTours/login.pl"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Client -> Server : 632 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 404 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 437 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Client -> Server : 588 bytes (Service=HTTP)
+[Network Analyzer ( 66c: 2f8)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 2f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 1446 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/login.pl?intro=true"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  8) Client -> Server : 583 bytes (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Client -> Server : 611 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1b24)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 5b0)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c: 2f8)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 726 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1b24)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  9) Client -> Server : 611 bytes (Service=HTTP)
+[Network Analyzer ( 66c: 5b0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 66c:1ae0)]   (Sid:  9) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  9) Server -> Client : 688 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 10) Client -> Server : 611 bytes (Service=HTTP)
+[Network Analyzer ( 66c: 2f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( 66c:1ae0)]   (Sid: 10) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 10) Server -> Client : 751 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 11) Client -> Server : 613 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 11) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 11) Server -> Client : 733 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  8) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  8) Server -> Client : 912 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/welcome.pl?page=search"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Client -> Server : 602 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 560 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  9) Client -> Server : 605 bytes (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/reservations.pl?page=welcome"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 10) Client -> Server : 606 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  9) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  9) Server -> Client : 1446 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 11) Client -> Server : 617 bytes (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  8) Client -> Server : 611 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 11) Server -> Client : 890 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  8) Server -> Client : 852 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 10) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 10) Server -> Client : 4182 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Client -> Server : 619 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Server -> Client : 758 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer ( 66c:1ae0)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer ( 66c:1b24)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Net An. Warning  ( 66c:1b24)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  ( 66c:1b24)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  ( 66c:1b24)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Error    ( 66c:1b24)] Request Connection: Remote Server @ 0.0.0.0:1080   (Service=?)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 0)
+[Network Analyzer ( 66c:1b24)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c:1b24)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      ( 66c:1ae0)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Client -> Server : 932 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 2352 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Client -> Server : 825 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 2723 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Client -> Server : 682 bytes (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Client -> Server : 343 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 408 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 2417 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Client -> Server : 582 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 806 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/welcome.pl?signOff=1"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Client -> Server : 579 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 391 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Client -> Server : 431 bytes (Service=HTTP)
+[Network Analyzer ( 66c: 2f8)] Address lookup for PC-20160404FIQS = 192.168.42.114
+[Network Analyzer ( 66c: 2f8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 12) Server -> Client : 1526 bytes  (Service=HTTP)
+[Web Request      ( 66c:1ae0)] "GET /WebTours/home.html"   
+[Network Analyzer ( 66c:1ae0)]   (Sid: 13) Client -> Server : 426 bytes (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 13) Server -> Client : 165 bytes  (Service=HTTP)
+[Network Analyzer ( 66c:1ae0)]   (Sid: 13) Server -> Client : 1322 bytes  (Service=HTTP)

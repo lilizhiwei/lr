@@ -1,0 +1,13 @@
+POST /WebTours/login.pl HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://localhost:1080/WebTours/nav.pl?in=home
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: localhost:1080
+Content-Length: 117
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: MSO=SID&1491467505&MSO_JSFormSubmit1&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+

@@ -1,0 +1,10 @@
+GET /WebTours/welcome.pl?signOff=1 HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://localhost:1080/WebTours/nav.pl?page=menu&in=flights
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Accept-Encoding: gzip, deflate
+Host: localhost:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1491467505&MSO_JSFormSubmit1&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Joseph&username&jojo&address2&San%20Jose%2FCA%2F94085&hash&47&address1&234%20Willow%20Drive&lastName&Marshall%0A
+
