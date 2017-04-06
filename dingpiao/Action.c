@@ -18,7 +18,6 @@ Action()
 	web_add_cookie("ptui_loginuin=194772385; DOMAIN=c.gj.qq.com");
 
 //Correlation comment - Do not change! Original value='HpQDHf' Name ='CorrelationParameter_1'
-
 	web_reg_save_param_ex(
 		"ParamName=CorrelationParameter_1",
 		"LB=t",
@@ -29,9 +28,7 @@ Action()
 		"IgnoreRedirections=Yes",
 		"RequestUrl=*/nav.pl*",
 		LAST);
-
 //Correlation comment - Do not change! Original value='iHzcf' Name ='CorrelationParameter_2'
-
 	web_reg_save_param_ex(
 		"ParamName=CorrelationParameter_2",
 		"LB=z",
@@ -41,7 +38,9 @@ Action()
 		"IgnoreRedirections=Yes",
 		"RequestUrl=*/nav.pl*",
 		LAST);
-
+	web_reg_find("Search=Body",
+		"Text=Web Tours",
+		LAST);
 	web_url("WebTours",
 		"URL=http://localhost:1080/WebTours/",
 		"TargetFrame=",
@@ -61,6 +60,8 @@ Action()
 
 	lr_think_time(9);
 
+	lr_start_transaction("login");
+
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/WebTours/login.pl",
 		"Method=POST",
@@ -77,6 +78,8 @@ Action()
 		"Name=login.x", "Value=54", ENDITEM,
 		"Name=login.y", "Value=7", ENDITEM,
 		LAST);
+
+	lr_end_transaction("login", LR_AUTO);
 
 	web_url("Search Flights Button",
 		"URL=http://localhost:1080/WebTours/welcome.pl?page=search",
@@ -100,7 +103,7 @@ Action()
 		"Mode=HTML",
 		ITEMDATA,
 		"Name=advanceDiscount", "Value=0", ENDITEM,
-		"Name=depart", "Value=London", ENDITEM,
+		"Name=depart", "Value={NewParam}", ENDITEM,
 		"Name=departDate", "Value=04/07/2017", ENDITEM,
 		"Name=arrive", "Value=Denver", ENDITEM,
 		"Name=returnDate", "Value=04/08/2017", ENDITEM,
