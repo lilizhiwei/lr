@@ -14,9 +14,9 @@ GlobalDir=
 }
 
 {ScenarioPrivateConfig
-Path=
+Path=C:\Users\Administrator\lr\shougong.lrs
 Author=¿Ó÷æŒ∞
-Subject=
+Subject=shougong
 Description=
 Hosts=1
 Scripts=2
@@ -25,7 +25,7 @@ Vusers=20
 Tranzactions=0
 Rendezvous=0
 Result_file=C:\Users\Administrator\AppData\Local\Temp\res\res.lrr
-ResCleanName=
+ResCleanName=res
 ResSymName=
 DEFAULT_NFS_LESS_MODE=1
 AutoSetResults=0
@@ -36,13 +36,19 @@ PlannedNumOfVusers=10
 PrivatePlannedNumOfVusers=0
 ManualControlDistributionType=-1
 ManualControlAutoAddVusers=1
+Tranzactions=0
+Vusers=20
+Groups=2
+Hosts=1
+Rendezvous=0
+Scripts=2
 TestDirPath=
 TestDirServer=
 TestDirDatabase=
 TestDirCycle=default
 TestDirCycleInstance=1
 TestResultsFlag=0
-ScenarioSchedulerMode=0
+ScenarioSchedulerMode=1
 ScenarioSchedulerName=Default Schedule
 SuspendScenarioStart=0
 ScenarioStartDelay=0
@@ -50,7 +56,7 @@ ScenarioStartAtTime=56620
 ScenarioStartAtTimeYear=2017
 ScenarioStartAtTimeMonth=4
 ScenarioStartAtTimeDay=8
-GIndexSortType=32244002423140
+GIndexSortType=13344223434042
 GIndexAutoSort=0
 SoftKillMode=0
 }
@@ -171,7 +177,7 @@ WanEnable=0
 StartUponScenario=0
 HOST_LOCATION=
 HOST_MONITORING_USER=
-HOST_MONITORING_PASSWORD=58e89513e
+HOST_MONITORING_PASSWORD=58ed8bc4e
 HOST_WAN_EMULATION_XML=
 HOST_WAN_CONFIGURATION_XML=
 HOST_WAN_EMULATION_SETTINGS_END=HOST_WAN_EMULATION_SETTINGS_END
@@ -189,7 +195,7 @@ UiName=dingpiao
 Type=1
 SubType=Multi+QTWeb
 Path=C:\Users\Administrator\lr\dingpiao\dingpiao.usr
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed=""\r\nEnableCustomModemSpeed="0"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="No"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="zh-CN"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="1"\r\nAutoTransFileLine="1"\r\nNavigatorUserLanguage="zh-CN"\r\nRecorderWinCodePage="936"\r\nUseCustomAgent="1"\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="True"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2017/04/06 08:31:33"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="https://www.baidu.com/?tn=98012088_5_dg&ch=12"\r\nScreenWidth="1366"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="zh-CN"\r\nProxyHTTPSHost=""\r\nWinInetReplay="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nDisableAED="0"\r\nSimulateCache="1"\r\nNavigatorSystemLanguage="zh-CN"\r\nEnableChecks="1"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="false"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="Yes"\r\nSnapshotOnErrorActive="0"\r\nProxyHTTPSPort="443"\r\nScreenHeight="768"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="True"\r\nCustomUserAgent="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions="0"\r\nContinueOnError="0"\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads="1"\r\niter_ends_val="fixed"\r\nDefaultRunLogic="uspjXw.913"\r\nAutomaticTransactionsPerFunc="0"\r\niter_begins_val="fixed"\r\nFailTransOnErrorMsg="0"\r\n[AED]\r\nTempAedFile="NO_APP_AT_AED"\r\n[FILTERS]\r\nIncludeFiltersInList=""\r\nFilterType="0"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1.000000"\r\nThinkTimeRandomHigh="150"\r\nThinkTimeRandomLow="50"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed=""\r\nEnableCustomModemSpeed="0"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="No"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="zh-CN"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="1"\r\nAutoTransFileLine="1"\r\nNavigatorUserLanguage="zh-CN"\r\nRecorderWinCodePage="936"\r\nUseCustomAgent="1"\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="True"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2017/04/06 08:31:33"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="https://www.baidu.com/?tn=98012088_5_dg&ch=12"\r\nScreenWidth="1366"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="zh-CN"\r\nProxyHTTPSHost=""\r\nWinInetReplay="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nDisableAED="0"\r\nSimulateCache="1"\r\nNavigatorSystemLanguage="zh-CN"\r\nEnableChecks="1"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="false"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="Yes"\r\nSnapshotOnErrorActive="0"\r\nProxyHTTPSPort="443"\r\nScreenHeight="768"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="True"\r\nCustomUserAgent="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions="0"\r\nContinueOnError="0"\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads="1"\r\niter_ends_val="fixed"\r\nDefaultRunLogic=uspdaT.137\r\nAutomaticTransactionsPerFunc="0"\r\niter_begins_val="fixed"\r\nFailTransOnErrorMsg="0"\r\n[AED]\r\nTempAedFile="NO_APP_AT_AED"\r\n[FILTERS]\r\nIncludeFiltersInList=""\r\nFilterType="0"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1.000000"\r\nThinkTimeRandomHigh="150"\r\nThinkTimeRandomLow="50"\r\nLimit="1"\r\nLimitFlag="0"\r\n
 ConfigUsp=[RunLogicEndRoot:vuser_end]\r\nMercIniTreeSectionName="vuser_end"\r\nRunLogicObjectKind="Action"\r\nName="vuser_end"\r\nMercIniTreeFather="RunLogicEndRoot"\r\nRunLogicActionType="VuserEnd"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeSectionName="vuser_init"\r\nRunLogicObjectKind="Action"\r\nName="vuser_init"\r\nMercIniTreeFather="RunLogicInitRoot"\r\nRunLogicActionType="VuserInit"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeSectionName="Action"\r\nRunLogicObjectKind="Action"\r\nName="Action"\r\nMercIniTreeFather="RunLogicRunRoot"\r\nRunLogicActionType="VuserRun"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nRunLogicObjectKind="Action"\r\nName="vuser_errorhandler"\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nRunLogicActionType="VuserErrorHandler"\r\n[Profile Actions]\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\nMercIniTreeFather=""\r\n[RunLogicRunRoot]\r\nRunLogicPaceConstTime="60.000"\r\nRunLogicRandomPaceMax="90.000"\r\nRunLogicActionOrder="Action"\r\nRunLogicAfterPaceMax="90.000"\r\nMercIniTreeFather=""\r\nRunLogicPaceType="Asap"\r\nMercIniTreeSons="Action"\r\nRunLogicNumOfIterations="1"\r\nRunLogicAfterPaceMin="60.000"\r\nName="Run"\r\nRunLogicPaceConstAfterTime="60.000"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserRun"\r\nRunLogicRandomPaceMin="60.000"\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\n[RunLogicErrorHandlerRoot]\r\nRunLogicActionOrder="vuser_errorhandler"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_errorhandler"\r\nRunLogicNumOfIterations="1"\r\nName="ErrorHandler"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserErrorHandler"\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\n[RunLogicEndRoot]\r\nRunLogicActionOrder="vuser_end"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_end"\r\nRunLogicNumOfIterations="1"\r\nName="End"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserEnd"\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\n[RunLogicInitRoot]\r\nRunLogicActionOrder="vuser_init"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_init"\r\nRunLogicNumOfIterations="1"\r\nName="Init"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserInit"\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\n
 Param=
 TDPath=
@@ -205,7 +211,7 @@ UiName=guanlian
 Type=1
 SubType=Multi+QTWeb
 Path=C:\Users\Administrator\lr\guanlian\guanlian.usr
-Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nNavigatorBrowserLanguage="zh-CN"\r\nUTF8InputOutput="1"\r\nNavigatorUserLanguage="zh-CN"\r\nRecorderWinCodePage="936"\r\nUseCustomAgent="1"\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2017/04/06 08:25:26"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="https://www.baidu.com/?tn=98012088_5_dg&ch=12"\r\nScreenWidth="1366"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="zh-CN"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="zh-CN"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="FALSE"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="443"\r\nScreenHeight="768"\r\nCustomUserAgent="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic="uspOEp.911"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nNavigatorBrowserLanguage="zh-CN"\r\nUTF8InputOutput="1"\r\nNavigatorUserLanguage="zh-CN"\r\nRecorderWinCodePage="936"\r\nUseCustomAgent="1"\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2017/04/06 08:25:26"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="https://www.baidu.com/?tn=98012088_5_dg&ch=12"\r\nScreenWidth="1366"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="zh-CN"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="zh-CN"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="FALSE"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="443"\r\nScreenHeight="768"\r\nCustomUserAgent="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspDuZ.139\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
 ConfigUsp=[RunLogicEndRoot]\r\nName="End"\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserEnd"\r\nMercIniTreeFather=""\r\nRunLogicRunMode="Sequential"\r\nRunLogicActionOrder="vuser_end"\r\nMercIniTreeSons="vuser_end"\r\n[RunLogicInitRoot:vuser_init]\r\nName="vuser_init"\r\nMercIniTreeSectionName="vuser_init"\r\nRunLogicObjectKind="Action"\r\nRunLogicActionType="VuserInit"\r\nMercIniTreeFather="RunLogicInitRoot"\r\n[RunLogicEndRoot:vuser_end]\r\nName="vuser_end"\r\nMercIniTreeSectionName="vuser_end"\r\nRunLogicObjectKind="Action"\r\nRunLogicActionType="VuserEnd"\r\nMercIniTreeFather="RunLogicEndRoot"\r\n[RunLogicRunRoot:Action]\r\nName="Action"\r\nMercIniTreeSectionName="Action"\r\nRunLogicObjectKind="Action"\r\nRunLogicActionType="VuserRun"\r\nMercIniTreeFather="RunLogicRunRoot"\r\n[RunLogicRunRoot]\r\nName="Run"\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserRun"\r\nMercIniTreeFather=""\r\nRunLogicRunMode="Sequential"\r\nRunLogicActionOrder="Action"\r\nMercIniTreeSons="Action"\r\n[RunLogicInitRoot]\r\nName="Init"\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserInit"\r\nMercIniTreeFather=""\r\nRunLogicRunMode="Sequential"\r\nRunLogicActionOrder="vuser_init"\r\nMercIniTreeSons="vuser_init"\r\n[Profile Actions]\r\nProfile Actions name=vuser_init,Action,vuser_end\r\nMercIniTreeSectionName=Profile Actions\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nRunLogicNumOfIterations="1"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicObjectKind="Group"\r\nName="ErrorHandler"\r\nRunLogicRunMode="Sequential"\r\nRunLogicActionType="VuserErrorHandler"\r\nMercIniTreeSons="vuser_errorhandler"\r\nMercIniTreeFather=""\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nRunLogicObjectKind="Action"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\n\r\n
 Param=
 TDPath=
@@ -268,13 +274,13 @@ SEED_NUM=0
 SEED_NUM=0
 }
 
-{10
+{2
 5=dingpiao
 9=localhost
 SEED_NUM=0
 }
 
-{2
+{10
 5=dingpiao
 9=localhost
 SEED_NUM=0
@@ -338,13 +344,13 @@ SEED_NUM=0
 SEED_NUM=0
 }
 
-{10
+{2
 5=guanlian
 9=localhost
 SEED_NUM=0
 }
 
-{2
+{10
 5=guanlian
 9=localhost
 SEED_NUM=0
@@ -456,7 +462,7 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
 Is_On_Panel=1
 SampleRate=5
@@ -3741,7 +3747,7 @@ ItemsNumber=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="58e89513e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="58ed8bc4e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioAlertsConfig
@@ -3764,7 +3770,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
     <Scheduler ID="1">
       <Name>Schedule 1</Name>
       <Manual>
-        <SchedulerType>Groups</SchedulerType>
+        <SchedulerType>Global</SchedulerType>
         <Global>
           <Scheduling>
             <IsDefaultScheduler>true</IsDefaultScheduler>
