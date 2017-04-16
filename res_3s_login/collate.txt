@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\Administrator\lr\basic_3s_login.lrs
+Completed=0

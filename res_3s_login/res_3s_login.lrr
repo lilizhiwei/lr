@@ -1,0 +1,45 @@
+[Scenario]
+Product=HP LoadRunner Controller
+Version=11.4.0.0
+Path=Scenario2
+Subject=
+Result_file=c:\users\administrator\desktop\res_3s_login\res_3s_login.lrr
+Description=
+ResultName=res_3s_login
+Time_Zone=-28800
+Start_time=1492351264
+Daylight_Bias=0
+Stop_time=1492351497
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Goal-Oriented Scenario
+Goal Profile Name=
+Goal=3.00 Transaction Response Time
+Scenario Duration=000:01:00 (hhh:mm:ss) after the target has been achieved
+Load Behavior=Reach target transaction response time using automatic ramp up
+[Scenario Policy]
+Scheduler Name=3S login
+SCHED_INIT_DURATION_TYPE=0
+SCHED_DURATION_TYPE=1
+SCHED_DURATION=60
+SCHED_RAMP_UP_MODE=0
+SCHED_INIT_RAMP_UP_MODE=0
+SCHED_TARGET_NUM=3.00
+SCHED_VUSERS_MIN_NUM=50
+SCHED_VUSERS_MAX_NUM=150
+SCHED_SCENARIO_TARGET=3
+SCHED_GOAL_RAMP_UP_DUR=600
+GOAL_NOT_REACHED_BEHAVIOR=1
+[Scripts]
+basic_script=D:\Program Files\HP\LoadRunner\tutorial\basic_script\basic_script.usr
+[Scripts_types]
+basic_script=Multi+QTWeb

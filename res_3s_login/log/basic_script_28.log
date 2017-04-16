@@ -1,0 +1,6 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Notify: Transaction "S01_T03_SearchFlight" started.	[MsgId: MMSG-16999]
+Action.c(6): Error -27796: Failed to connect to server "127.0.0.1:1080": [10061] Connection refused  	[MsgId: MERR-27796]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
