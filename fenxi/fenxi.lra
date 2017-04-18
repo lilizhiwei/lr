@@ -1,0 +1,65 @@
+﻿[Workspace]
+SessionStartTime=0
+SessionEndTime=718
+VerNo=10
+IsSummaryData=0
+TimeFormat=0
+SesLang=ENU
+ABuild=685
+DataBaseName=tuto916785DB
+DBType=1
+CurrServer=TILER
+CurrUser=sa
+CurrPswd===
+StorageLoc=\\TILER\Data\
+PhStorageLoc=C:\MSSQL7\Data\
+LocStorageLoc=
+LocPhStorageLoc=
+WinIntSec=0
+UseNetworkMode=0
+UseParallel=1
+UseManagedIndexes=1
+UseSpecMSSQLParams=1
+NumResults=1
+
+[Data Config]
+CollectionMode=2
+IngnoreFlds=Vuser ID
+IngnoreUIFlds=VuserID
+AggSecGran=1
+TransAgg=1
+DataPointAgg=1
+WebAgg=1
+MonAgg=0
+ErrAgg=0
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+
+[Result0]
+LRRID=
+ResultPath=S:\lrun6\nt\1414\lrunner_download\prd\tutorial\tutorial_result\tutorial_result.lrr
+ResultTDPath=
+NumFilters=0
+ScenarioTimeZone=-7200
+DaylightSavingSecsAddition=3600
+ScenarioStartTime=1088409589
+ScenarioEndTime=1088410307
+ResInSD=0
+WebGran=5
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+TDTestID=-1
+TDRunID=-1
+IsProTuneResult=0
+Scenario Type=Manual
+Schedule Name=Default Schedule
+Mode=Scenario Scheduling
+Load Behavior=Start 2 Vusers every 00:00:03 (hh:mm:ss)
+Scenario Duration=Run for 000:03:00 (hhh:mm:ss)
+NumGraphs=0
+
+[DimensionFunctions]
+DimeFuncCount=0
+
