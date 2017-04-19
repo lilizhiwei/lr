@@ -1,0 +1,3993 @@
+﻿[General]
+TableCount=17
+
+[Table_0]
+FactTableName=Breakdown_meter
+DimensionCount=23
+
+[Breakdown_meter_Dim0]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Breakdown_map
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=APPLICATION
+Dim_1=IMAGE
+Dim_2=Page
+Dim_3=TEXT
+
+[Breakdown_meter_Dim1]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Breakdown_map
+NumValues=34
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=34
+Dim_0=127.0..../bookanother.gif
+Dim_1=127.0..../button_next.gif
+Dim_2=127.0..../images/home.gif
+Dim_3=127.0..../JSFormSubmit.js
+Dim_4=127.0..../reservations.pl
+Dim_5=127.0..../reservations.pl (main URL)
+Dim_6=127.0....ages/flights.gif
+Dim_7=127.0....ages/hp_logo.png
+Dim_8=127.0....ages/signoff.gif
+Dim_9=127.0....bTours/home.html
+Dim_10=127.0....ebTours/error.pl
+Dim_11=127.0....ebTours/error.pl (main URL)
+Dim_12=127.0....es/itinerary.gif
+Dim_13=127.0....es/mer_login.gif
+Dim_14=127.0....es/startover.gif
+Dim_15=127.0....ges/webtours.png
+Dim_16=127.0....ours/header.html
+Dim_17=127.0....s/in_flights.gif
+Dim_18=127.0....s/nav.pl?in=home
+Dim_19=127.0....urs/itinerary.pl
+Dim_20=127.0.0...._itinerary.gif
+Dim_21=127.0.0....ash_error2.jpg
+Dim_22=127.0.0....e.pl?signOff=1
+Dim_23=127.0.0....e.pl?signOff=1 (main URL)
+Dim_24=127.0.0....enu&in=flights
+Dim_25=127.0.0....l?page=welcome
+Dim_26=127.0.0....l?signOff=true
+Dim_27=127.0.0....page=itinerary
+Dim_28=127.0.0....page=itinerary (main URL)
+Dim_29=127.0.0....pl?page=search
+Dim_30=127.0.0....pl?page=search (main URL)
+Dim_31=127.0.0....u&in=itinerary
+Dim_32=127.0.0.1:1080/WebTours
+Dim_33=127.0.0.1:1080/WebTours (main URL)
+
+[Breakdown_meter_Dim2]
+InternalDimName=DNS Resolution
+Dimension=DNS Resolution
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim3]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[Breakdown_meter_Dim4]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[Breakdown_meter_Dim5]
+InternalDimName=FTP Authentication
+Dimension=FTP Authentication
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim6]
+InternalDimName=Connection
+Dimension=Connection
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.001000
+
+[Breakdown_meter_Dim7]
+InternalDimName=First Buffer
+Dimension=First Buffer
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.003000
+Dim_1=2.636000
+
+[Breakdown_meter_Dim8]
+InternalDimName=Client
+Dimension=Client
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.017000
+
+[Breakdown_meter_Dim9]
+InternalDimName=SSL Handshaking
+Dimension=SSL Handshaking
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim10]
+InternalDimName=Network
+Dimension=Network
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.010000
+
+[Breakdown_meter_Dim11]
+InternalDimName=Server
+Dimension=Server
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.003000
+Dim_1=2.631000
+
+[Breakdown_meter_Dim12]
+InternalDimName=Size
+Dimension=Size
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.251953
+Dim_1=11.079102
+
+[Breakdown_meter_Dim13]
+InternalDimName=Error
+Dimension=Error
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Breakdown_meter_Dim14]
+InternalDimName=Receive
+Dimension=Receive
+EqualFlag=1
+DimensionTableName=Breakdown_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.110000
+
+[Breakdown_meter_Dim15]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[Breakdown_meter_Dim16]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[Breakdown_meter_Dim17]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[Breakdown_meter_Dim18]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=40
+Dim_0=3
+Dim_1=4
+Dim_2=5
+Dim_3=6
+Dim_4=7
+Dim_5=8
+Dim_6=9
+Dim_7=10
+Dim_8=11
+Dim_9=12
+Dim_10=13
+Dim_11=14
+Dim_12=15
+Dim_13=16
+Dim_14=19
+Dim_15=20
+Dim_16=21
+Dim_17=22
+Dim_18=23
+Dim_19=24
+Dim_20=25
+Dim_21=26
+Dim_22=27
+Dim_23=29
+Dim_24=30
+Dim_25=32
+Dim_26=33
+Dim_27=34
+Dim_28=36
+Dim_29=37
+Dim_30=38
+Dim_31=39
+Dim_32=40
+Dim_33=41
+Dim_34=44
+Dim_35=45
+Dim_36=46
+Dim_37=47
+Dim_38=48
+Dim_39=49
+AsParent=1
+BasedOnTableName=
+
+[Breakdown_meter_Dim19]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[Breakdown_meter_Dim20]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[Breakdown_meter_Dim21]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+
+[Breakdown_meter_Dim22]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[Table_1]
+FactTableName=DataPoint_meter
+DimensionCount=11
+
+[DataPoint_meter_Dim0]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=DataPoint_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[DataPoint_meter_Dim1]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[DataPoint_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=DataPoint_meter
+NumValues=43
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=129
+Dim_0=100000.000000
+Dim_1=288216.000000
+Dim_2=Free Megabytes (LogicalDisk _Total)
+Dim_3=1764.000000
+Dim_4=1883.000000
+Dim_5=Available MBytes (Memory)
+Dim_6=100000.000000
+Dim_7=102817792.000000
+Dim_8=Cache Bytes (Memory)
+Dim_9=100000.000000
+Dim_10=2578931712.000000
+Dim_11=Committed Bytes (Memory)
+Dim_12=340.828000
+Dim_13=82403.468000
+Dim_14=Page Faults/sec (Memory)
+Dim_15=0.000000
+Dim_16=192.014000
+Dim_17=Page Reads/sec (Memory)
+Dim_18=0.000000
+Dim_19=1298.587000
+Dim_20=Pages/sec (Memory)
+Dim_21=100000.000000
+Dim_22=102817792.000000
+Dim_23=System Cache Resident Bytes (Memory)
+Dim_24=1522.000000
+Dim_25=1604.000000
+Dim_26=Threads (Objects)
+Dim_27=0.173000
+Dim_28=2910.419000
+Dim_29=% Disk Time (PhysicalDisk _Total)
+Dim_30=4.909000
+Dim_31=100.013000
+Dim_32=% Idle Time (PhysicalDisk _Total)
+Dim_33=5120.000000
+Dim_34=82197.695000
+Dim_35=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_36=0.002000
+Dim_37=29.104000
+Dim_38=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_39=2.657000
+Dim_40=192.014000
+Dim_41=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_42=0.000000
+Dim_43=7.641000
+Dim_44=Split IO/Sec (PhysicalDisk _Total)
+Dim_45=0.259000
+Dim_46=3.368000
+Dim_47=% Interrupt Time (Processor _Total)
+Dim_48=7.643000
+Dim_49=28.627000
+Dim_50=% Privileged Time (Processor _Total)
+Dim_51=11.139000
+Dim_52=62.565000
+Dim_53=% Processor Time (Processor _Total)
+Dim_54=1777.261000
+Dim_55=5948.499000
+Dim_56=Interrupts/sec (Processor _Total)
+Dim_57=100000.000000
+Dim_58=1544896512.000000
+Dim_59=Private Bytes (Process _Total)
+Dim_60=100000.000000
+Dim_61=2043707392.000000
+Dim_62=Working Set (Process _Total)
+Dim_63=0.000000
+Dim_64=0.000000
+Dim_65=Bytes Total/sec (Server)
+Dim_66=6249.485000
+Dim_67=15643.972000
+Dim_68=Context Switches/sec (System)
+Dim_69=446.890000
+Dim_70=9018.752000
+Dim_71=File Data Operations/sec (System)
+Dim_72=0.000000
+Dim_73=13.000000
+Dim_74=Processor Queue Length (System)
+Dim_75=0.486947
+Dim_76=2.166623
+Dim_77=S01_T01_HomePage
+Dim_78=2.000000
+Dim_79=2.000000
+Dim_80=New Connections
+Dim_81=-2.000000
+Dim_82=2.000000
+Dim_83=Connections
+Dim_84=258.000000
+Dim_85=16813.000000
+Dim_86=Throughput
+Dim_87=1.000000
+Dim_88=10.000000
+Dim_89=Hits
+Dim_90=1.000000
+Dim_91=10.000000
+Dim_92=HTTP_200
+Dim_93=1.000000
+Dim_94=1.000000
+Dim_95=HTTP_404
+Dim_96=0.238247
+Dim_97=0.422775
+Dim_98=S01_T02_LogIn
+Dim_99=1.000000
+Dim_100=3.000000
+Dim_101=Pages
+Dim_102=2.000000
+Dim_103=2.000000
+Dim_104=Connection Shutdowns
+Dim_105=8.751024
+Dim_106=10.579282
+Dim_107=vuser_init_Transaction
+Dim_108=0.447790
+Dim_109=1.777509
+Dim_110=S01_T03_SearchFlight
+Dim_111=0.424197
+Dim_112=1.290753
+Dim_113=S01_T04_BookFlight
+Dim_114=0.213021
+Dim_115=0.607292
+Dim_116=S01_T05_PaymentDetails
+Dim_117=0.460331
+Dim_118=2.063498
+Dim_119=S01_T06_CheckItinerary
+Dim_120=17.816521
+Dim_121=20.989694
+Dim_122=Action_Transaction
+Dim_123=0.474227
+Dim_124=0.733563
+Dim_125=S01_T07_SignOff
+Dim_126=0.474311
+Dim_127=0.733648
+Dim_128=vuser_end_Transaction
+
+[DataPoint_meter_Dim3]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[DataPoint_meter_Dim4]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[DataPoint_meter_Dim5]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[DataPoint_meter_Dim6]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[DataPoint_meter_Dim7]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[DataPoint_meter_Dim8]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[DataPoint_meter_Dim9]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[DataPoint_meter_Dim10]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[Table_2]
+FactTableName=Diagnostic_meter
+DimensionCount=8
+
+[Diagnostic_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[Diagnostic_meter_Dim1]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Diagnostic_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[Diagnostic_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Diagnostic_meter
+NumValues=43
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=129
+Dim_0=100000.000000
+Dim_1=288216.000000
+Dim_2=Free Megabytes (LogicalDisk _Total)
+Dim_3=1764.000000
+Dim_4=1883.000000
+Dim_5=Available MBytes (Memory)
+Dim_6=100000.000000
+Dim_7=102817792.000000
+Dim_8=Cache Bytes (Memory)
+Dim_9=100000.000000
+Dim_10=2578931712.000000
+Dim_11=Committed Bytes (Memory)
+Dim_12=340.828000
+Dim_13=82403.468000
+Dim_14=Page Faults/sec (Memory)
+Dim_15=0.000000
+Dim_16=192.014000
+Dim_17=Page Reads/sec (Memory)
+Dim_18=0.000000
+Dim_19=1298.587000
+Dim_20=Pages/sec (Memory)
+Dim_21=100000.000000
+Dim_22=102817792.000000
+Dim_23=System Cache Resident Bytes (Memory)
+Dim_24=1522.000000
+Dim_25=1604.000000
+Dim_26=Threads (Objects)
+Dim_27=0.173000
+Dim_28=2910.419000
+Dim_29=% Disk Time (PhysicalDisk _Total)
+Dim_30=4.909000
+Dim_31=100.013000
+Dim_32=% Idle Time (PhysicalDisk _Total)
+Dim_33=5120.000000
+Dim_34=82197.695000
+Dim_35=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_36=0.002000
+Dim_37=29.104000
+Dim_38=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_39=2.657000
+Dim_40=192.014000
+Dim_41=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_42=0.000000
+Dim_43=7.641000
+Dim_44=Split IO/Sec (PhysicalDisk _Total)
+Dim_45=0.259000
+Dim_46=3.368000
+Dim_47=% Interrupt Time (Processor _Total)
+Dim_48=7.643000
+Dim_49=28.627000
+Dim_50=% Privileged Time (Processor _Total)
+Dim_51=11.139000
+Dim_52=62.565000
+Dim_53=% Processor Time (Processor _Total)
+Dim_54=1777.261000
+Dim_55=5948.499000
+Dim_56=Interrupts/sec (Processor _Total)
+Dim_57=100000.000000
+Dim_58=1544896512.000000
+Dim_59=Private Bytes (Process _Total)
+Dim_60=100000.000000
+Dim_61=2043707392.000000
+Dim_62=Working Set (Process _Total)
+Dim_63=0.000000
+Dim_64=0.000000
+Dim_65=Bytes Total/sec (Server)
+Dim_66=6249.485000
+Dim_67=15643.972000
+Dim_68=Context Switches/sec (System)
+Dim_69=446.890000
+Dim_70=9018.752000
+Dim_71=File Data Operations/sec (System)
+Dim_72=0.000000
+Dim_73=13.000000
+Dim_74=Processor Queue Length (System)
+Dim_75=0.486947
+Dim_76=2.166623
+Dim_77=S01_T01_HomePage
+Dim_78=2.000000
+Dim_79=2.000000
+Dim_80=New Connections
+Dim_81=-2.000000
+Dim_82=2.000000
+Dim_83=Connections
+Dim_84=258.000000
+Dim_85=16813.000000
+Dim_86=Throughput
+Dim_87=1.000000
+Dim_88=10.000000
+Dim_89=Hits
+Dim_90=1.000000
+Dim_91=10.000000
+Dim_92=HTTP_200
+Dim_93=1.000000
+Dim_94=1.000000
+Dim_95=HTTP_404
+Dim_96=0.238247
+Dim_97=0.422775
+Dim_98=S01_T02_LogIn
+Dim_99=1.000000
+Dim_100=3.000000
+Dim_101=Pages
+Dim_102=2.000000
+Dim_103=2.000000
+Dim_104=Connection Shutdowns
+Dim_105=8.751024
+Dim_106=10.579282
+Dim_107=vuser_init_Transaction
+Dim_108=0.447790
+Dim_109=1.777509
+Dim_110=S01_T03_SearchFlight
+Dim_111=0.424197
+Dim_112=1.290753
+Dim_113=S01_T04_BookFlight
+Dim_114=0.213021
+Dim_115=0.607292
+Dim_116=S01_T05_PaymentDetails
+Dim_117=0.460331
+Dim_118=2.063498
+Dim_119=S01_T06_CheckItinerary
+Dim_120=17.816521
+Dim_121=20.989694
+Dim_122=Action_Transaction
+Dim_123=0.474227
+Dim_124=0.733563
+Dim_125=S01_T07_SignOff
+Dim_126=0.474311
+Dim_127=0.733648
+Dim_128=vuser_end_Transaction
+
+[Diagnostic_meter_Dim3]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[Diagnostic_meter_Dim4]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[Diagnostic_meter_Dim5]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[Diagnostic_meter_Dim6]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[Diagnostic_meter_Dim7]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[Table_3]
+FactTableName=Error_meter
+DimensionCount=10
+
+[Error_meter_Dim0]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Error_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[Error_meter_Dim1]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[Error_meter_Dim2]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[Error_meter_Dim3]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[Error_meter_Dim4]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[Error_meter_Dim5]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[Error_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[Error_meter_Dim7]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[Error_meter_Dim8]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[Error_meter_Dim9]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[Table_4]
+FactTableName=Event_meter
+DimensionCount=13
+
+[Event_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[Event_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[Event_meter_Dim2]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=43
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=129
+Dim_0=100000.000000
+Dim_1=288216.000000
+Dim_2=Free Megabytes (LogicalDisk _Total)
+Dim_3=1764.000000
+Dim_4=1883.000000
+Dim_5=Available MBytes (Memory)
+Dim_6=100000.000000
+Dim_7=102817792.000000
+Dim_8=Cache Bytes (Memory)
+Dim_9=100000.000000
+Dim_10=2578931712.000000
+Dim_11=Committed Bytes (Memory)
+Dim_12=340.828000
+Dim_13=82403.468000
+Dim_14=Page Faults/sec (Memory)
+Dim_15=0.000000
+Dim_16=192.014000
+Dim_17=Page Reads/sec (Memory)
+Dim_18=0.000000
+Dim_19=1298.587000
+Dim_20=Pages/sec (Memory)
+Dim_21=100000.000000
+Dim_22=102817792.000000
+Dim_23=System Cache Resident Bytes (Memory)
+Dim_24=1522.000000
+Dim_25=1604.000000
+Dim_26=Threads (Objects)
+Dim_27=0.173000
+Dim_28=2910.419000
+Dim_29=% Disk Time (PhysicalDisk _Total)
+Dim_30=4.909000
+Dim_31=100.013000
+Dim_32=% Idle Time (PhysicalDisk _Total)
+Dim_33=5120.000000
+Dim_34=82197.695000
+Dim_35=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_36=0.002000
+Dim_37=29.104000
+Dim_38=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_39=2.657000
+Dim_40=192.014000
+Dim_41=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_42=0.000000
+Dim_43=7.641000
+Dim_44=Split IO/Sec (PhysicalDisk _Total)
+Dim_45=0.259000
+Dim_46=3.368000
+Dim_47=% Interrupt Time (Processor _Total)
+Dim_48=7.643000
+Dim_49=28.627000
+Dim_50=% Privileged Time (Processor _Total)
+Dim_51=11.139000
+Dim_52=62.565000
+Dim_53=% Processor Time (Processor _Total)
+Dim_54=1777.261000
+Dim_55=5948.499000
+Dim_56=Interrupts/sec (Processor _Total)
+Dim_57=100000.000000
+Dim_58=1544896512.000000
+Dim_59=Private Bytes (Process _Total)
+Dim_60=100000.000000
+Dim_61=2043707392.000000
+Dim_62=Working Set (Process _Total)
+Dim_63=0.000000
+Dim_64=0.000000
+Dim_65=Bytes Total/sec (Server)
+Dim_66=6249.485000
+Dim_67=15643.972000
+Dim_68=Context Switches/sec (System)
+Dim_69=446.890000
+Dim_70=9018.752000
+Dim_71=File Data Operations/sec (System)
+Dim_72=0.000000
+Dim_73=13.000000
+Dim_74=Processor Queue Length (System)
+Dim_75=0.486947
+Dim_76=2.166623
+Dim_77=S01_T01_HomePage
+Dim_78=2.000000
+Dim_79=2.000000
+Dim_80=New Connections
+Dim_81=-2.000000
+Dim_82=2.000000
+Dim_83=Connections
+Dim_84=258.000000
+Dim_85=16813.000000
+Dim_86=Throughput
+Dim_87=1.000000
+Dim_88=10.000000
+Dim_89=Hits
+Dim_90=1.000000
+Dim_91=10.000000
+Dim_92=HTTP_200
+Dim_93=1.000000
+Dim_94=1.000000
+Dim_95=HTTP_404
+Dim_96=0.238247
+Dim_97=0.422775
+Dim_98=S01_T02_LogIn
+Dim_99=1.000000
+Dim_100=3.000000
+Dim_101=Pages
+Dim_102=2.000000
+Dim_103=2.000000
+Dim_104=Connection Shutdowns
+Dim_105=8.751024
+Dim_106=10.579282
+Dim_107=vuser_init_Transaction
+Dim_108=0.447790
+Dim_109=1.777509
+Dim_110=S01_T03_SearchFlight
+Dim_111=0.424197
+Dim_112=1.290753
+Dim_113=S01_T04_BookFlight
+Dim_114=0.213021
+Dim_115=0.607292
+Dim_116=S01_T05_PaymentDetails
+Dim_117=0.460331
+Dim_118=2.063498
+Dim_119=S01_T06_CheckItinerary
+Dim_120=17.816521
+Dim_121=20.989694
+Dim_122=Action_Transaction
+Dim_123=0.474227
+Dim_124=0.733563
+Dim_125=S01_T07_SignOff
+Dim_126=0.474311
+Dim_127=0.733648
+Dim_128=vuser_end_Transaction
+
+[Event_meter_Dim3]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[Event_meter_Dim4]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[Event_meter_Dim5]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[Event_meter_Dim6]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[Event_meter_Dim7]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=10
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=17
+Dim_4=18
+Dim_5=28
+Dim_6=31
+Dim_7=35
+Dim_8=42
+Dim_9=43
+AsParent=1
+BasedOnTableName=
+
+[Event_meter_Dim8]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[Event_meter_Dim9]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[Event_meter_Dim10]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+
+[Event_meter_Dim11]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[Event_meter_Dim12]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[Table_5]
+FactTableName=J2EETBD_meter
+DimensionCount=7
+
+[J2EETBD_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[J2EETBD_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[J2EETBD_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[J2EETBD_meter_Dim3]
+InternalDimName=Num Exception
+Dimension=Num Exception
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[J2EETBD_meter_Dim4]
+InternalDimName=Num Timeout
+Dimension=Num Timeout
+EqualFlag=1
+DimensionTableName=J2EETBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[J2EETBD_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[J2EETBD_meter_Dim6]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+
+[Table_6]
+FactTableName=J2EETBD_Net_meter
+DimensionCount=6
+
+[J2EETBD_Net_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[J2EETBD_Net_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[J2EETBD_Net_meter_Dim2]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=J2EETBD_Net_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[J2EETBD_Net_meter_Dim3]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=50
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+AsParent=1
+BasedOnTableName=
+
+[J2EETBD_Net_meter_Dim4]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[J2EETBD_Net_meter_Dim5]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+
+[Table_7]
+FactTableName=Monitor_meter
+DimensionCount=9
+
+[Monitor_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[Monitor_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[Monitor_meter_Dim2]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[Monitor_meter_Dim3]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[Monitor_meter_Dim4]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[Monitor_meter_Dim5]
+InternalDimName=Father ID
+Dimension=Father ID
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=1
+DimensionType=DiscreteNumber
+UseEscapeSequence=1
+DimCount=1
+Dim_0=-1
+
+[Monitor_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[Monitor_meter_Dim7]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=Monitor_meter
+NumValues=43
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=129
+Dim_0=100000.000000
+Dim_1=288216.000000
+Dim_2=Free Megabytes (LogicalDisk _Total)
+Dim_3=1764.000000
+Dim_4=1883.000000
+Dim_5=Available MBytes (Memory)
+Dim_6=100000.000000
+Dim_7=102817792.000000
+Dim_8=Cache Bytes (Memory)
+Dim_9=100000.000000
+Dim_10=2578931712.000000
+Dim_11=Committed Bytes (Memory)
+Dim_12=340.828000
+Dim_13=82403.468000
+Dim_14=Page Faults/sec (Memory)
+Dim_15=0.000000
+Dim_16=192.014000
+Dim_17=Page Reads/sec (Memory)
+Dim_18=0.000000
+Dim_19=1298.587000
+Dim_20=Pages/sec (Memory)
+Dim_21=100000.000000
+Dim_22=102817792.000000
+Dim_23=System Cache Resident Bytes (Memory)
+Dim_24=1522.000000
+Dim_25=1604.000000
+Dim_26=Threads (Objects)
+Dim_27=0.173000
+Dim_28=2910.419000
+Dim_29=% Disk Time (PhysicalDisk _Total)
+Dim_30=4.909000
+Dim_31=100.013000
+Dim_32=% Idle Time (PhysicalDisk _Total)
+Dim_33=5120.000000
+Dim_34=82197.695000
+Dim_35=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_36=0.002000
+Dim_37=29.104000
+Dim_38=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_39=2.657000
+Dim_40=192.014000
+Dim_41=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_42=0.000000
+Dim_43=7.641000
+Dim_44=Split IO/Sec (PhysicalDisk _Total)
+Dim_45=0.259000
+Dim_46=3.368000
+Dim_47=% Interrupt Time (Processor _Total)
+Dim_48=7.643000
+Dim_49=28.627000
+Dim_50=% Privileged Time (Processor _Total)
+Dim_51=11.139000
+Dim_52=62.565000
+Dim_53=% Processor Time (Processor _Total)
+Dim_54=1777.261000
+Dim_55=5948.499000
+Dim_56=Interrupts/sec (Processor _Total)
+Dim_57=100000.000000
+Dim_58=1544896512.000000
+Dim_59=Private Bytes (Process _Total)
+Dim_60=100000.000000
+Dim_61=2043707392.000000
+Dim_62=Working Set (Process _Total)
+Dim_63=0.000000
+Dim_64=0.000000
+Dim_65=Bytes Total/sec (Server)
+Dim_66=6249.485000
+Dim_67=15643.972000
+Dim_68=Context Switches/sec (System)
+Dim_69=446.890000
+Dim_70=9018.752000
+Dim_71=File Data Operations/sec (System)
+Dim_72=0.000000
+Dim_73=13.000000
+Dim_74=Processor Queue Length (System)
+Dim_75=0.486947
+Dim_76=2.166623
+Dim_77=S01_T01_HomePage
+Dim_78=2.000000
+Dim_79=2.000000
+Dim_80=New Connections
+Dim_81=-2.000000
+Dim_82=2.000000
+Dim_83=Connections
+Dim_84=258.000000
+Dim_85=16813.000000
+Dim_86=Throughput
+Dim_87=1.000000
+Dim_88=10.000000
+Dim_89=Hits
+Dim_90=1.000000
+Dim_91=10.000000
+Dim_92=HTTP_200
+Dim_93=1.000000
+Dim_94=1.000000
+Dim_95=HTTP_404
+Dim_96=0.238247
+Dim_97=0.422775
+Dim_98=S01_T02_LogIn
+Dim_99=1.000000
+Dim_100=3.000000
+Dim_101=Pages
+Dim_102=2.000000
+Dim_103=2.000000
+Dim_104=Connection Shutdowns
+Dim_105=8.751024
+Dim_106=10.579282
+Dim_107=vuser_init_Transaction
+Dim_108=0.447790
+Dim_109=1.777509
+Dim_110=S01_T03_SearchFlight
+Dim_111=0.424197
+Dim_112=1.290753
+Dim_113=S01_T04_BookFlight
+Dim_114=0.213021
+Dim_115=0.607292
+Dim_116=S01_T05_PaymentDetails
+Dim_117=0.460331
+Dim_118=2.063498
+Dim_119=S01_T06_CheckItinerary
+Dim_120=17.816521
+Dim_121=20.989694
+Dim_122=Action_Transaction
+Dim_123=0.474227
+Dim_124=0.733563
+Dim_125=S01_T07_SignOff
+Dim_126=0.474311
+Dim_127=0.733648
+Dim_128=vuser_end_Transaction
+
+[Monitor_meter_Dim8]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[Table_8]
+FactTableName=Sap_osm_meter
+DimensionCount=6
+
+[Sap_osm_meter_Dim0]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[Sap_osm_meter_Dim1]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[Sap_osm_meter_Dim2]
+InternalDimName=PageOutKB
+Dimension=PageOutKB
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim3]
+InternalDimName=PageInKB
+Dimension=PageInKB
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim4]
+InternalDimName=Disks
+Dimension=Disks
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_osm_meter_Dim5]
+InternalDimName=CPU
+Dimension=CPU
+EqualFlag=1
+DimensionTableName=Sap_osm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Table_9]
+FactTableName=Sap_sr_meter
+DimensionCount=34
+
+[Sap_sr_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[Sap_sr_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[Sap_sr_meter_Dim2]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[Sap_sr_meter_Dim3]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[Sap_sr_meter_Dim4]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[Sap_sr_meter_Dim5]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=50
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+AsParent=1
+BasedOnTableName=
+
+[Sap_sr_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[Sap_sr_meter_Dim7]
+InternalDimName=Roll In Time
+Dimension=Roll In Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim8]
+InternalDimName=Output Len
+Dimension=Output Len
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim9]
+InternalDimName=Input Len
+Dimension=Input Len
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim10]
+InternalDimName=Queue Time
+Dimension=Queue Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim11]
+InternalDimName=Cpu Time
+Dimension=Cpu Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim12]
+InternalDimName=Resp Time
+Dimension=Resp Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim13]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[Sap_sr_meter_Dim14]
+InternalDimName=Database Time
+Dimension=Database Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim15]
+InternalDimName=Start Time
+Dimension=Start Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim16]
+InternalDimName=Rfc Time
+Dimension=Rfc Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim17]
+InternalDimName=Network Time
+Dimension=Network Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim18]
+InternalDimName=End-User Time
+Dimension=End-User Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim19]
+InternalDimName=GuiNet Time
+Dimension=GuiNet Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim20]
+InternalDimName=Roll Out Time
+Dimension=Roll Out Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim21]
+InternalDimName=Roll Wait Time
+Dimension=Roll Wait Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim22]
+InternalDimName=Lock Time
+Dimension=Lock Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim23]
+InternalDimName=Cuaload Time
+Dimension=Cuaload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim24]
+InternalDimName=Dynpload Time
+Dimension=Dynpload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim25]
+InternalDimName=Repload Time
+Dimension=Repload Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim26]
+InternalDimName=Generate Time
+Dimension=Generate Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim27]
+InternalDimName=Commit Time
+Dimension=Commit Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim28]
+InternalDimName=DB Time to Record
+Dimension=DB Time to Record
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim29]
+InternalDimName=Database Records
+Dimension=Database Records
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim30]
+InternalDimName=Gui Time
+Dimension=Gui Time
+EqualFlag=1
+DimensionTableName=Sap_sr_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_sr_meter_Dim31]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[Sap_sr_meter_Dim32]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[Sap_sr_meter_Dim33]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[Table_10]
+FactTableName=Sap_wpm_meter
+DimensionCount=8
+
+[Sap_wpm_meter_Dim0]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[Sap_wpm_meter_Dim1]
+InternalDimName=StoppedOther
+Dimension=StoppedOther
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim2]
+InternalDimName=StoppedPRIV
+Dimension=StoppedPRIV
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim3]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[Sap_wpm_meter_Dim4]
+InternalDimName=Ended
+Dimension=Ended
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim5]
+InternalDimName=StoppedCPIC
+Dimension=StoppedCPIC
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim6]
+InternalDimName=Running
+Dimension=Running
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Sap_wpm_meter_Dim7]
+InternalDimName=Waiting
+Dimension=Waiting
+EqualFlag=1
+DimensionTableName=Sap_wpm_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[Table_11]
+FactTableName=SARM_meter
+DimensionCount=12
+
+[SARM_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[SARM_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[SARM_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[SARM_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[SARM_meter_Dim4]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[SARM_meter_Dim5]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=50
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+AsParent=1
+BasedOnTableName=
+
+[SARM_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[SARM_meter_Dim7]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SARM_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[SARM_meter_Dim8]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[SARM_meter_Dim9]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+
+[SARM_meter_Dim10]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[SARM_meter_Dim11]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[Table_12]
+FactTableName=SARM_Net_meter
+DimensionCount=12
+
+[SARM_Net_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[SARM_Net_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[SARM_Net_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[SARM_Net_meter_Dim3]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[SARM_Net_meter_Dim4]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[SARM_Net_meter_Dim5]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=50
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+AsParent=1
+BasedOnTableName=
+
+[SARM_Net_meter_Dim6]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[SARM_Net_meter_Dim7]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SARM_Net_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[SARM_Net_meter_Dim8]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[SARM_Net_meter_Dim9]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+
+[SARM_Net_meter_Dim10]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[SARM_Net_meter_Dim11]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[Table_13]
+FactTableName=SQLBD_meter
+DimensionCount=13
+
+[SQLBD_meter_Dim0]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[SQLBD_meter_Dim1]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[SQLBD_meter_Dim2]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[SQLBD_meter_Dim3]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[SQLBD_meter_Dim4]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[SQLBD_meter_Dim5]
+InternalDimName=Other Time
+Dimension=Other Time
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[SQLBD_meter_Dim7]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=43
+DimensionType=RelatedContinuous
+BaseDimension=Element Name
+DimCount=129
+Dim_0=100000.000000
+Dim_1=288216.000000
+Dim_2=Free Megabytes (LogicalDisk _Total)
+Dim_3=1764.000000
+Dim_4=1883.000000
+Dim_5=Available MBytes (Memory)
+Dim_6=100000.000000
+Dim_7=102817792.000000
+Dim_8=Cache Bytes (Memory)
+Dim_9=100000.000000
+Dim_10=2578931712.000000
+Dim_11=Committed Bytes (Memory)
+Dim_12=340.828000
+Dim_13=82403.468000
+Dim_14=Page Faults/sec (Memory)
+Dim_15=0.000000
+Dim_16=192.014000
+Dim_17=Page Reads/sec (Memory)
+Dim_18=0.000000
+Dim_19=1298.587000
+Dim_20=Pages/sec (Memory)
+Dim_21=100000.000000
+Dim_22=102817792.000000
+Dim_23=System Cache Resident Bytes (Memory)
+Dim_24=1522.000000
+Dim_25=1604.000000
+Dim_26=Threads (Objects)
+Dim_27=0.173000
+Dim_28=2910.419000
+Dim_29=% Disk Time (PhysicalDisk _Total)
+Dim_30=4.909000
+Dim_31=100.013000
+Dim_32=% Idle Time (PhysicalDisk _Total)
+Dim_33=5120.000000
+Dim_34=82197.695000
+Dim_35=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_36=0.002000
+Dim_37=29.104000
+Dim_38=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_39=2.657000
+Dim_40=192.014000
+Dim_41=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_42=0.000000
+Dim_43=7.641000
+Dim_44=Split IO/Sec (PhysicalDisk _Total)
+Dim_45=0.259000
+Dim_46=3.368000
+Dim_47=% Interrupt Time (Processor _Total)
+Dim_48=7.643000
+Dim_49=28.627000
+Dim_50=% Privileged Time (Processor _Total)
+Dim_51=11.139000
+Dim_52=62.565000
+Dim_53=% Processor Time (Processor _Total)
+Dim_54=1777.261000
+Dim_55=5948.499000
+Dim_56=Interrupts/sec (Processor _Total)
+Dim_57=100000.000000
+Dim_58=1544896512.000000
+Dim_59=Private Bytes (Process _Total)
+Dim_60=100000.000000
+Dim_61=2043707392.000000
+Dim_62=Working Set (Process _Total)
+Dim_63=0.000000
+Dim_64=0.000000
+Dim_65=Bytes Total/sec (Server)
+Dim_66=6249.485000
+Dim_67=15643.972000
+Dim_68=Context Switches/sec (System)
+Dim_69=446.890000
+Dim_70=9018.752000
+Dim_71=File Data Operations/sec (System)
+Dim_72=0.000000
+Dim_73=13.000000
+Dim_74=Processor Queue Length (System)
+Dim_75=0.486947
+Dim_76=2.166623
+Dim_77=S01_T01_HomePage
+Dim_78=2.000000
+Dim_79=2.000000
+Dim_80=New Connections
+Dim_81=-2.000000
+Dim_82=2.000000
+Dim_83=Connections
+Dim_84=258.000000
+Dim_85=16813.000000
+Dim_86=Throughput
+Dim_87=1.000000
+Dim_88=10.000000
+Dim_89=Hits
+Dim_90=1.000000
+Dim_91=10.000000
+Dim_92=HTTP_200
+Dim_93=1.000000
+Dim_94=1.000000
+Dim_95=HTTP_404
+Dim_96=0.238247
+Dim_97=0.422775
+Dim_98=S01_T02_LogIn
+Dim_99=1.000000
+Dim_100=3.000000
+Dim_101=Pages
+Dim_102=2.000000
+Dim_103=2.000000
+Dim_104=Connection Shutdowns
+Dim_105=8.751024
+Dim_106=10.579282
+Dim_107=vuser_init_Transaction
+Dim_108=0.447790
+Dim_109=1.777509
+Dim_110=S01_T03_SearchFlight
+Dim_111=0.424197
+Dim_112=1.290753
+Dim_113=S01_T04_BookFlight
+Dim_114=0.213021
+Dim_115=0.607292
+Dim_116=S01_T05_PaymentDetails
+Dim_117=0.460331
+Dim_118=2.063498
+Dim_119=S01_T06_CheckItinerary
+Dim_120=17.816521
+Dim_121=20.989694
+Dim_122=Action_Transaction
+Dim_123=0.474227
+Dim_124=0.733563
+Dim_125=S01_T07_SignOff
+Dim_126=0.474311
+Dim_127=0.733648
+Dim_128=vuser_end_Transaction
+
+[SQLBD_meter_Dim8]
+InternalDimName=Prepare
+Dimension=Prepare
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim9]
+InternalDimName=Execute
+Dimension=Execute
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim10]
+InternalDimName=Initial Fetch
+Dimension=Initial Fetch
+EqualFlag=1
+DimensionTableName=SQLBD_meter
+NumValues=1
+DimensionType=ContinuousNumber
+DimCount=2
+Dim_0=0.000000
+Dim_1=0.000000
+
+[SQLBD_meter_Dim11]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[SQLBD_meter_Dim12]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[Table_14]
+FactTableName=URL_meter
+DimensionCount=9
+
+[URL_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[URL_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[URL_meter_Dim2]
+InternalDimName=Tree Path ID
+Dimension=Tree Path ID
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimensionType=IdsDimension
+DimCount=50
+Dim_0=0
+Dim_1=1
+Dim_2=2
+Dim_3=3
+Dim_4=4
+Dim_5=5
+Dim_6=6
+Dim_7=7
+Dim_8=8
+Dim_9=9
+Dim_10=10
+Dim_11=11
+Dim_12=12
+Dim_13=13
+Dim_14=14
+Dim_15=15
+Dim_16=16
+Dim_17=17
+Dim_18=18
+Dim_19=19
+Dim_20=20
+Dim_21=21
+Dim_22=22
+Dim_23=23
+Dim_24=24
+Dim_25=25
+Dim_26=26
+Dim_27=27
+Dim_28=28
+Dim_29=29
+Dim_30=30
+Dim_31=31
+Dim_32=32
+Dim_33=33
+Dim_34=34
+Dim_35=35
+Dim_36=36
+Dim_37=37
+Dim_38=38
+Dim_39=39
+Dim_40=40
+Dim_41=41
+Dim_42=42
+Dim_43=43
+Dim_44=44
+Dim_45=45
+Dim_46=46
+Dim_47=47
+Dim_48=48
+Dim_49=49
+AsParent=1
+BasedOnTableName=
+
+[URL_meter_Dim3]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[URL_meter_Dim4]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[URL_meter_Dim5]
+InternalDimName=Transaction End Status
+Dimension=Transaction End Status
+EqualFlag=1
+DimensionTableName=TransactionEndStatus
+NumValues=3
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=3
+Dim_0=Fail
+Dim_1=Pass
+Dim_2=Stop
+
+[URL_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=URL_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[URL_meter_Dim7]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[URL_meter_Dim8]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[Table_15]
+FactTableName=VuserEvent_meter
+DimensionCount=10
+
+[VuserEvent_meter_Dim0]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[VuserEvent_meter_Dim1]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[VuserEvent_meter_Dim2]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[VuserEvent_meter_Dim3]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[VuserEvent_meter_Dim4]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[VuserEvent_meter_Dim5]
+InternalDimName=Vuser End Status Name
+Dimension=Vuser End Status Name
+EqualFlag=1
+DimensionTableName=VuserEndStatus
+NumValues=4
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=4
+Dim_0=Error
+Dim_1=Failed
+Dim_2=Passed
+Dim_3=Stopped
+
+[VuserEvent_meter_Dim6]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=VuserEvent_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[VuserEvent_meter_Dim7]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[VuserEvent_meter_Dim8]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[VuserEvent_meter_Dim9]
+InternalDimName=Vuser Status Name
+Dimension=Vuser Status Name
+EqualFlag=1
+DimensionTableName=VuserStatus
+NumValues=5
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=5
+Dim_0=Load
+Dim_1=Pause
+Dim_2=Quit
+Dim_3=Ready
+Dim_4=Run
+
+[Table_16]
+FactTableName=WebEvent_meter
+DimensionCount=11
+
+[WebEvent_meter_Dim0]
+InternalDimName=Event Name
+Dimension=Event Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=43
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=43
+Dim_0=% Disk Time (PhysicalDisk _Total)
+Dim_1=% Idle Time (PhysicalDisk _Total)
+Dim_2=% Interrupt Time (Processor _Total)
+Dim_3=% Privileged Time (Processor _Total)
+Dim_4=% Processor Time (Processor _Total)
+Dim_5=Action_Transaction
+Dim_6=Available MBytes (Memory)
+Dim_7=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_8=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_9=Bytes Total/sec (Server)
+Dim_10=Cache Bytes (Memory)
+Dim_11=Committed Bytes (Memory)
+Dim_12=Connection Shutdowns
+Dim_13=Connections
+Dim_14=Context Switches/sec (System)
+Dim_15=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_16=File Data Operations/sec (System)
+Dim_17=Free Megabytes (LogicalDisk _Total)
+Dim_18=Hits
+Dim_19=HTTP_200
+Dim_20=HTTP_404
+Dim_21=Interrupts/sec (Processor _Total)
+Dim_22=New Connections
+Dim_23=Page Faults/sec (Memory)
+Dim_24=Page Reads/sec (Memory)
+Dim_25=Pages
+Dim_26=Pages/sec (Memory)
+Dim_27=Private Bytes (Process _Total)
+Dim_28=Processor Queue Length (System)
+Dim_29=S01_T01_HomePage
+Dim_30=S01_T02_LogIn
+Dim_31=S01_T03_SearchFlight
+Dim_32=S01_T04_BookFlight
+Dim_33=S01_T05_PaymentDetails
+Dim_34=S01_T06_CheckItinerary
+Dim_35=S01_T07_SignOff
+Dim_36=Split IO/Sec (PhysicalDisk _Total)
+Dim_37=System Cache Resident Bytes (Memory)
+Dim_38=Threads (Objects)
+Dim_39=Throughput
+Dim_40=vuser_end_Transaction
+Dim_41=vuser_init_Transaction
+Dim_42=Working Set (Process _Total)
+
+[WebEvent_meter_Dim1]
+InternalDimName=Event Type
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=6
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=6
+Dim_0=Connections
+Dim_1=Connections per Second
+Dim_2=PageV
+Dim_3=Server Resources
+Dim_4=Transaction
+Dim_5=Web
+
+[WebEvent_meter_Dim2]
+InternalDimName=Emulated Location
+Dimension=Emulated Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=No WAN Emulation
+
+[WebEvent_meter_Dim3]
+InternalDimName=Host Location
+Dimension=Host Location
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=N/A
+
+[WebEvent_meter_Dim4]
+InternalDimName=Host Name
+Dimension=Host Name
+EqualFlag=1
+DimensionTableName=Host
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=localhost
+
+[WebEvent_meter_Dim5]
+InternalDimName=Result Name
+Dimension=Result Name
+EqualFlag=1
+DimensionTableName=Result
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=res_basic_10.lrr
+
+[WebEvent_meter_Dim6]
+InternalDimName=Script Name
+Dimension=Script Name
+EqualFlag=1
+DimensionTableName=Script
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[WebEvent_meter_Dim7]
+InternalDimName=Group Name
+Dimension=Group Name
+EqualFlag=1
+DimensionTableName=VuserGroup
+NumValues=1
+DimensionType=Discrete
+UseEscapeSequence=1
+DimCount=1
+Dim_0=basic_script
+
+[WebEvent_meter_Dim8]
+InternalDimName=VuserID
+Dimension=VuserID
+EqualFlag=1
+DimensionTableName=VuserId
+NumValues=2
+DimensionType=Sequential
+UseEscapeSequence=1
+DimCount=2
+Dim_0=1 - 10
+Dim_1=Dummy2
+
+[WebEvent_meter_Dim9]
+InternalDimName=End Time
+Dimension=End Time
+EqualFlag=1
+DimensionTableName=WebEvent_meter
+NumValues=1
+DimensionType=Continuous
+DimCount=2
+Dim_0=0.000000
+Dim_1=95.000000
+
+[WebEvent_meter_Dim10]
+InternalDimName=Value
+Dimension=Value
+EqualFlag=1
+DimensionTableName=WebEvent_meter
+NumValues=43
+DimensionType=RelatedContinuous
+BaseDimension=Event Name
+DimCount=129
+Dim_0=100000.000000
+Dim_1=288216.000000
+Dim_2=Free Megabytes (LogicalDisk _Total)
+Dim_3=1764.000000
+Dim_4=1883.000000
+Dim_5=Available MBytes (Memory)
+Dim_6=100000.000000
+Dim_7=102817792.000000
+Dim_8=Cache Bytes (Memory)
+Dim_9=100000.000000
+Dim_10=2578931712.000000
+Dim_11=Committed Bytes (Memory)
+Dim_12=340.828000
+Dim_13=82403.468000
+Dim_14=Page Faults/sec (Memory)
+Dim_15=0.000000
+Dim_16=192.014000
+Dim_17=Page Reads/sec (Memory)
+Dim_18=0.000000
+Dim_19=1298.587000
+Dim_20=Pages/sec (Memory)
+Dim_21=100000.000000
+Dim_22=102817792.000000
+Dim_23=System Cache Resident Bytes (Memory)
+Dim_24=1522.000000
+Dim_25=1604.000000
+Dim_26=Threads (Objects)
+Dim_27=0.173000
+Dim_28=2910.419000
+Dim_29=% Disk Time (PhysicalDisk _Total)
+Dim_30=4.909000
+Dim_31=100.013000
+Dim_32=% Idle Time (PhysicalDisk _Total)
+Dim_33=5120.000000
+Dim_34=82197.695000
+Dim_35=Avg. Disk Bytes/Transfer (PhysicalDisk _Total)
+Dim_36=0.002000
+Dim_37=29.104000
+Dim_38=Avg. Disk Queue Length (PhysicalDisk _Total)
+Dim_39=2.657000
+Dim_40=192.014000
+Dim_41=Disk Transfers/sec (PhysicalDisk _Total)
+Dim_42=0.000000
+Dim_43=7.641000
+Dim_44=Split IO/Sec (PhysicalDisk _Total)
+Dim_45=0.259000
+Dim_46=3.368000
+Dim_47=% Interrupt Time (Processor _Total)
+Dim_48=7.643000
+Dim_49=28.627000
+Dim_50=% Privileged Time (Processor _Total)
+Dim_51=11.139000
+Dim_52=62.565000
+Dim_53=% Processor Time (Processor _Total)
+Dim_54=1777.261000
+Dim_55=5948.499000
+Dim_56=Interrupts/sec (Processor _Total)
+Dim_57=100000.000000
+Dim_58=1544896512.000000
+Dim_59=Private Bytes (Process _Total)
+Dim_60=100000.000000
+Dim_61=2043707392.000000
+Dim_62=Working Set (Process _Total)
+Dim_63=0.000000
+Dim_64=0.000000
+Dim_65=Bytes Total/sec (Server)
+Dim_66=6249.485000
+Dim_67=15643.972000
+Dim_68=Context Switches/sec (System)
+Dim_69=446.890000
+Dim_70=9018.752000
+Dim_71=File Data Operations/sec (System)
+Dim_72=0.000000
+Dim_73=13.000000
+Dim_74=Processor Queue Length (System)
+Dim_75=0.486947
+Dim_76=2.166623
+Dim_77=S01_T01_HomePage
+Dim_78=2.000000
+Dim_79=2.000000
+Dim_80=New Connections
+Dim_81=-2.000000
+Dim_82=2.000000
+Dim_83=Connections
+Dim_84=258.000000
+Dim_85=16813.000000
+Dim_86=Throughput
+Dim_87=1.000000
+Dim_88=10.000000
+Dim_89=Hits
+Dim_90=1.000000
+Dim_91=10.000000
+Dim_92=HTTP_200
+Dim_93=1.000000
+Dim_94=1.000000
+Dim_95=HTTP_404
+Dim_96=0.238247
+Dim_97=0.422775
+Dim_98=S01_T02_LogIn
+Dim_99=1.000000
+Dim_100=3.000000
+Dim_101=Pages
+Dim_102=2.000000
+Dim_103=2.000000
+Dim_104=Connection Shutdowns
+Dim_105=8.751024
+Dim_106=10.579282
+Dim_107=vuser_init_Transaction
+Dim_108=0.447790
+Dim_109=1.777509
+Dim_110=S01_T03_SearchFlight
+Dim_111=0.424197
+Dim_112=1.290753
+Dim_113=S01_T04_BookFlight
+Dim_114=0.213021
+Dim_115=0.607292
+Dim_116=S01_T05_PaymentDetails
+Dim_117=0.460331
+Dim_118=2.063498
+Dim_119=S01_T06_CheckItinerary
+Dim_120=17.816521
+Dim_121=20.989694
+Dim_122=Action_Transaction
+Dim_123=0.474227
+Dim_124=0.733563
+Dim_125=S01_T07_SignOff
+Dim_126=0.474311
+Dim_127=0.733648
+Dim_128=vuser_end_Transaction
+
