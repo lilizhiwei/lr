@@ -1,0 +1,80 @@
+﻿[BasicInfo]
+Title=Web Pages (Over Time)
+TemplateName=Breakdown_BaseGraph0
+ChartGroup=BreakdownSession
+PerformanceClass=General
+
+[Graph Definitions]
+MainFactTableName=Breakdown_meter
+DefaultDisplayType=Line
+UserGranularity=1
+RoundBarValues=0
+GraphDataCol1=
+TableName=T8184509T
+BasicTableName=
+AbsoluteTime=0
+DisableFilter=0
+SetPieToPercent=0
+DescFromFID=0
+NumSelectStrings=1
+ProduceRealStatis=1
+CompleteMissingValuesWithZeroes=0
+CompleteMissingValues=0
+ForceCompleteValsOnArea=1
+IdsToStrs=1
+StdMonitor=0
+HiddenFunctions=
+NumBasicFilters=1
+NumAdditionalFilters=0
+NumRawDataFilters=0
+HiddenDimensions=Tree Path ID
+BasicGroupBy=Component Name, Component Hierarchical Path
+AdditionalGroupBy=
+HasGranularity=1
+YLeftAxisTitle=Average Download Time (seconds)
+YRightAxisTitle=
+TimeBasedXAxis=1
+XBottomAxisTitle=Elapsed scenario time mm:ss
+XTopAxisTitle=
+DisplayAsStairs=0
+RawDataDimension=Scenario Elapsed Time
+Scaling=0
+ZeroValue=0
+CompleteValFromLast=0
+Stacked=0
+BreakdownTree=1
+TransactionBreakdownGraph=0
+BreakdownChartType=BreakdownLineResponseTime_Main
+
+[SelectString0]
+Dimension=Component Response Time
+CountField=
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=
+ActiveState=1
+
+[BasicFilter0]
+DimensionType=Discrete
+InternalDimName=
+Dimension=Component Type
+EqualFlag=1
+DimensionTableName=Breakdown_map
+NumValues=1
+UseEscapeSequence=1
+DimCount=1
+Dim_0=Page
+
+[DimensionFunctions]
+DimeFuncCount=0
+
+[Granularity]
+Dimension=Scenario Elapsed Time
+TimeScaleType=2
+Granularity=2
+BaseGranularityUIName=
+MinimumDefaultGranularity=1
+
+[Alerts]
+Number Of Alerts=0
+

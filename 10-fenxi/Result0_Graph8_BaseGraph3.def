@@ -1,0 +1,137 @@
+﻿[BasicInfo]
+Title=Page Download Time Breakdown (Over Time)
+TemplateName=Breakdown_BaseGraph3
+ChartGroup=BreakdownSession
+PerformanceClass=General
+
+[Graph Definitions]
+MainFactTableName=Breakdown_meter
+DefaultDisplayType=Area
+UserGranularity=1
+RoundBarValues=0
+GraphDataCol1=Component Name
+TableName=T8184589T
+BasicTableName=
+AbsoluteTime=0
+DisableFilter=0
+SetPieToPercent=0
+DescFromFID=0
+NumSelectStrings=8
+ProduceRealStatis=0
+CompleteMissingValuesWithZeroes=0
+CompleteMissingValues=1
+ForceCompleteValsOnArea=1
+IdsToStrs=1
+StdMonitor=0
+HiddenFunctions=
+NumBasicFilters=0
+NumAdditionalFilters=1
+NumRawDataFilters=0
+HiddenDimensions=
+BasicGroupBy=Component Name
+AdditionalGroupBy=
+HasGranularity=1
+YLeftAxisTitle=Time (seconds)
+YRightAxisTitle=
+TimeBasedXAxis=1
+XBottomAxisTitle=Elapsed scenario time mm:ss
+XTopAxisTitle=
+DisplayAsStairs=0
+RawDataDimension=Scenario Elapsed Time
+Scaling=0
+ZeroValue=0
+CompleteValFromLast=0
+Stacked=1
+BreakdownTree=1
+TransactionBreakdownGraph=0
+BreakdownChartType=BreakdownLine
+
+[SelectString0]
+Dimension=Component DNS Resolution Time
+CountField=
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=DNS Resolution Time
+ActiveState=1
+
+[SelectString1]
+Dimension=Component Connection Time
+CountField=
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=Connection Time
+ActiveState=1
+
+[SelectString2]
+Dimension=Component SSL Handshaking Time
+CountField=
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=SSL Handshaking Time
+ActiveState=1
+
+[SelectString3]
+Dimension=Component FTP Authentication Time
+CountField=
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=FTP Authentication Time
+ActiveState=1
+
+[SelectString4]
+Dimension=Component First Buffer Time
+CountField=
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=First Buffer Time
+ActiveState=1
+
+[SelectString5]
+Dimension=Component Receive Time
+CountField=
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=Receive Time
+ActiveState=1
+
+[SelectString6]
+Dimension=Component Client Time
+CountField=
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=Client Time
+ActiveState=1
+
+[SelectString7]
+Dimension=Component Error Time
+CountField=
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=Error Time
+ActiveState=1
+
+[AdditionalFilter0]
+DimensionType=IdsDimension
+InternalDimName=Tree Path ID
+Dimension=Component Hierarchical Path
+EqualFlag=1
+DimensionTableName=MsrsTreePath
+NumValues=0
+DimCount=1
+Dim_0=13
+AsParent=1
+BasedOnTableName=
+
+[DimensionFunctions]
+DimeFuncCount=0
+
+[Granularity]
+Dimension=Scenario Elapsed Time
+TimeScaleType=2
+Granularity=2
+BaseGranularityUIName=
+MinimumDefaultGranularity=1
+
+[Alerts]
+Number Of Alerts=0
+

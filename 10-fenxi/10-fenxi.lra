@@ -58,7 +58,7 @@ Schedule Name=Schedule 1
 Mode=Scenario Scheduling
 Load Behavior=Initialize each Vuser just before it runs
 Scenario Duration=Start 10 Vusers: 1 every 00:00:01 (HH:MM:SS); Run for 00:01:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:01 (HH:MM:SS)
-NumGraphs=5
+NumGraphs=9
 
 [DimensionFunctions]
 DimeFuncCount=1
