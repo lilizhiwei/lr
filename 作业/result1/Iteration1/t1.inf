@@ -1,0 +1,12 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/html
+StepName=Url: welcome.pl
+Total=1
+FileName1=t1.html
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RequestBodyFile=t1_RequestBody.txt
+URL1=http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true
+[AdditionalInfo]
+IsIgnorable=0

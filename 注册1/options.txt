@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\lr\зЂВс1
+-IF:\LR\include
+-ec:\users\administrator\lr\зЂВс1\\logfile.log
+c:\users\administrator\lr\зЂВс1\\combined_зЂВс1.c
+c:\users\administrator\lr\зЂВс1\\pre_cci.c

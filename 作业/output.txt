@@ -1,0 +1,35 @@
+Virtual User Script started at : 2017-11-16 21:30:13
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "C:\Users\Administrator\lr\作业\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Notify: Transaction "进入订票页面" started.
+Action.c(6): web_url("welcome.pl") was successful, 630 body bytes, 428 header bytes  	[MsgId: MMSG-26386]
+Action.c(15): Notify: Transaction "进入订票页面" ended with "Pass" status (Duration: 0.6259 Wasted Time: 0.3555).
+Action.c(17): web_url("nav.pl") was successful, 1532 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(26): web_submit_data("login.pl") was successful, 795 body bytes, 225 header bytes  	[MsgId: MMSG-26386]
+Action.c(42): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(44): Registering web_url("nav.pl_2") was successful  	[MsgId: MMSG-26390]
+Action.c(53): Registering web_url("login.pl_2") was successful  	[MsgId: MMSG-26390]
+Action.c(62): web_concurrent_end was successful, 2354 body bytes, 478 header bytes  	[MsgId: MMSG-26386]
+Action.c(66): web_url("Search Flights Button") was successful, 560 body bytes, 175 header bytes  	[MsgId: MMSG-26386]
+Action.c(75): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(77): Registering web_url("nav.pl_3") was successful  	[MsgId: MMSG-26390]
+Action.c(86): Registering web_url("reservations.pl") was successful  	[MsgId: MMSG-26390]
+Action.c(95): web_concurrent_end was successful, 5795 body bytes, 506 header bytes  	[MsgId: MMSG-26386]
+Action.c(99): web_submit_data("reservations.pl_2") was successful, 2498 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(124): web_submit_data("reservations.pl_3") was successful, 3528 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(143): web_submit_data("reservations.pl_4") was successful, 2418 body bytes, 286 header bytes  	[MsgId: MMSG-26386]
+Action.c(173): web_submit_data("reservations.pl_5") was successful, 4349 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(187): web_url("welcome.pl_2") was successful, 630 body bytes, 428 header bytes  	[MsgId: MMSG-26386]
+Action.c(196): web_url("nav.pl_4") was successful, 1532 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

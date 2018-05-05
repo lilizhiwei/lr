@@ -1,0 +1,13 @@
+POST /WebTours/reservations.pl HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
+Referer: http://127.0.0.1:1080/WebTours/reservations.pl
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN
+Accept: */*
+Connection: Keep-Alive
+Host: 127.0.0.1:1080
+Cookie: MSO=SID&1523813149&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Joseph&address2&San%20Jose%2FCA%2F94085&username&jojo&hash&47&lastName&Marshall%0A&address1&234%20Willow%20Drive&creditCard&62260001&expDate&02%2F29%0A
+Content-Length: 148
+

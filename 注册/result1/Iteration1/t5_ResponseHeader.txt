@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 02 May 2018 14:25:29 GMT
+Content-Type: text/html; charset=GBK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: IPLOC=CN4102; path=/
+P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+X-Powered-By: PHP/5.3.3
+

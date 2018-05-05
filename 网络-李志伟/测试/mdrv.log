@@ -1,0 +1,11 @@
+Error: CCI compilation error -Action.c (3): illegal character `\0243'
+.	[MsgId: MERR-19799]
+Error: CCI compilation error -Action.c (3): illegal character `\0251'
+.	[MsgId: MERR-19799]
+Error: CCI compilation error -Action.c (3): syntax error; found `;' expecting `)'
+.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\\users\\administrator\\lr\\\315\370\302\347-\300\356\326\276\316\260\\\262\342\312\324\\\\combined_\262\342\312\324.c (5): 3 errors, not writing pre_cci.ci
+.	[MsgId: MERR-19799]
+Error: Vuser compilation failed.	[MsgId: MERR-19800]
+Warning: Extension cciext.dll reports error -19800 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]

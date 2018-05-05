@@ -1,0 +1,10 @@
+GET /WebTours/welcome.pl?signOff=1 HTTP/1.1
+Host: localhost:1080
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://localhost:1080/WebTours/nav.pl?page=menu&in=home
+Cookie: MSO=SID&1525270898&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&11&address2&11&username&jojo11&hash&17&lastName&11&address1&11&creditCard&&expDate&
+Connection: keep-alive
+

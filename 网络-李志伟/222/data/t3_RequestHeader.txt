@@ -1,0 +1,10 @@
+GET /WebTours/welcome.pl?page=search HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home
+Cookie: MSO=SID&1510837902&MSO_JSFormSubmit1&on&MSO_JSVerify&on&MSO_JSFormSubmit2&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Joseph&address2&San%20Jose%2FCA%2F94085&username&jojo&hash&47&lastName&Marshall%0A&address1&234%20Willow%20Drive&creditCard&&expDate&%0A
+Connection: keep-alive
+

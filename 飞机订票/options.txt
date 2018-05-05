@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\vidya\Desktop\·É»ú¶©Æ±
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\vidya\desktop\·É»ú¶©Æ±\\logfile.log
+c:\users\vidya\desktop\·É»ú¶©Æ±\\combined_·É»ú¶©Æ±.c
+c:\users\vidya\desktop\·É»ú¶©Æ±\\pre_cci.c

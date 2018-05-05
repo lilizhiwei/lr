@@ -1,0 +1,30 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Correlation is disabled
+
+Debug Message:
+	TaskID=15  URL=http://localhost:1080/WebTours/welcome.pl?signOff=true
+
+Debug Message:
+	TaskID=17  URL=http://localhost:1080/WebTours/nav.pl?in=home
+
+Debug Message:
+	TaskID=26  URL=http://localhost:1080/WebTours/login.pl?username=&password=&getInfo=true
+
+Debug Message:
+	TaskID=33  URL=http://localhost:1080/WebTours/login.pl
+
+Debug Message:
+	TaskID=34  URL=http://localhost:1080/WebTours/welcome.pl?page=menus
+
+Debug Message:
+	TaskID=37  URL=http://localhost:1080/WebTours/nav.pl?page=menu&in=home
+
+Debug Message:
+	TaskID=41  URL=http://localhost:1080/WebTours/welcome.pl?signOff=1
+
+Debug Message:
+	TaskID=43  URL=http://localhost:1080/WebTours/nav.pl?in=home
+

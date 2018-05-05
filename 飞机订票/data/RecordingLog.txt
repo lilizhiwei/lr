@@ -1,0 +1,168 @@
+[Network Analyzer (129c: dc8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (129c: dc8)] Load Network Traffic Analyzers:
+[Network Analyzer (129c: dc8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (129c: dc8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (129c: dc8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (129c: dc8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (129c: dc8)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer (129c: dc8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (129c: dc8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (129c:11d4)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: 41c)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: 41c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (129c:11d4)] "GET /WebTours/"   
+[Network Analyzer (129c:11d4)]   (Sid:  1) Client -> Server : 260 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  1) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  1) Server -> Client : 312 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/header.html"   
+[Network Analyzer (129c:11d4)]   (Sid:  1) Client -> Server : 313 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  1) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  1) Server -> Client : 692 bytes  (Service=HTTP)
+[Network Analyzer (129c: 41c)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: 41c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (129c:11d4)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (129c:11d4)]   (Sid:  1) Client -> Server : 344 bytes (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/welcome.pl?signOff=true"   
+[Network Analyzer (129c:11d4)]   (Sid:  2) Client -> Server : 325 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  1) Server -> Client : 765 bytes  (Service=HTTP)
+[Network Analyzer (129c:1250)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c:1250)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 391 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (129c:11d4)]   (Sid:  3) Client -> Server : 345 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  3) Server -> Client : 164 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer (129c:11d4)]   (Sid:  1) Client -> Server : 434 bytes (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/home.html"   
+[Network Analyzer (129c:11d4)]   (Sid:  2) Client -> Server : 429 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  3) Server -> Client : 818 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 1487 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  1) Server -> Client : 1782 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/JSFormSubmit.js"   
+[Network Analyzer (129c:11d4)]   (Sid:  3) Client -> Server : 422 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  3) Server -> Client : 179 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  3) Server -> Client : 291 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (129c:11d4)]   (Sid:  2) Client -> Server : 444 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 679 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /favicon.ico"   
+[Network Analyzer (129c:11d4)]   (Sid:  1) Client -> Server : 299 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  1) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  1) Connection Terminated (by Server)
+[Web Request      (129c:11d4)] "POST /WebTours/login.pl"   
+[Network Analyzer (129c:11d4)]   (Sid:  3) Client -> Server : 611 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  3) Connection Terminated (by Client)
+[Web Request      (129c:11d4)] "POST /WebTours/login.pl"   
+[Network Analyzer (129c:11d4)]   (Sid:  2) Client -> Server : 634 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 404 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 437 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer (129c:11d4)]   (Sid:  2) Client -> Server : 588 bytes (Service=HTTP)
+[Network Analyzer (129c:1090)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c:1090)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 1446 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/login.pl?intro=true"   
+[Network Analyzer (129c:11d4)]   (Sid:  4) Client -> Server : 583 bytes (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (129c:11d4)]   (Sid:  2) Client -> Server : 611 bytes (Service=HTTP)
+[Network Analyzer (129c:1090)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: e44)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: 41c)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:1090)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (129c:11d4)]   (Sid:  2) Server -> Client : 726 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (129c:11d4)]   (Sid:  5) Client -> Server : 611 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  5) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  5) Server -> Client : 688 bytes  (Service=HTTP)
+[Network Analyzer (129c: e44)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (129c:11d4)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (129c:11d4)]   (Sid:  6) Client -> Server : 613 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  6) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  6) Server -> Client : 733 bytes  (Service=HTTP)
+[Network Analyzer (129c: 41c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (129c:11d4)]   (Sid:  4) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  4) Server -> Client : 912 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (129c:11d4)]   (Sid:  7) Client -> Server : 611 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  7) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  7) Server -> Client : 751 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (129c:11d4)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (129c:11d4)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (129c:11d4)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (129c:11d4)]   (Sid:  6) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent 第一步点击菜单 [Network Analyzer (129c: 41c)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: 41c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (129c:11d4)] "GET /WebTours/welcome.pl?page=search"   
+[Network Analyzer (129c:11d4)]   (Sid:  8) Client -> Server : 602 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  8) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  8) Server -> Client : 560 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/nav.pl?page=menu&in=flights"   
+[Network Analyzer (129c:11d4)]   (Sid:  8) Client -> Server : 605 bytes (Service=HTTP)
+[Network Analyzer (129c: 41c)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: 41c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (129c:11d4)]   (Sid:  8) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  8) Server -> Client : 1446 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/reservations.pl?page=welcome"   
+[Network Analyzer (129c:11d4)]   (Sid:  9) Client -> Server : 606 bytes (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (129c:11d4)]   (Sid:  8) Client -> Server : 617 bytes (Service=HTTP)
+[Network Analyzer (129c: 41c)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c:11d4)]   (Sid:  8) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  8) Server -> Client : 726 bytes  (Service=HTTP)
+[Network Analyzer (129c: 41c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (129c:11d4)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (129c:11d4)]   (Sid: 10) Client -> Server : 611 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 10) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 10) Server -> Client : 688 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  9) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  9) Server -> Client : 4182 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (129c:11d4)]   (Sid:  8) Client -> Server : 619 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  8) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid:  8) Server -> Client : 758 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent 第一步点击菜单 [Network Analyzer (129c:11d4)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (129c:11d4)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (129c:11d4)]   (Sid:  9) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent 第二步选择订票信息 [Network Analyzer (129c: e44)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: e44)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (129c:11d4)] "POST /WebTours/reservations.pl"   
+[Network Analyzer (129c:11d4)]   (Sid: 11) Client -> Server : 945 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 11) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 11) Server -> Client : 2373 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent 第二步选择订票信息 [Network Analyzer (129c:11d4)]   (Sid: 11) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent 第三步选择起飞时间 [Network Analyzer (129c: aec)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: aec)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (129c:11d4)] "POST /WebTours/reservations.pl"   
+[Network Analyzer (129c:11d4)]   (Sid: 12) Client -> Server : 831 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 12) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 12) Server -> Client : 2728 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent 第三步选择起飞时间 [User action                 ] StartTransactionEvent 第四步提交乘客信息 [Network Analyzer (129c:11d4)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (129c: e44)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c: e44)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (129c:11d4)] "POST /WebTours/reservations.pl"   
+[Network Analyzer (129c:11d4)]   (Sid: 13) Client -> Server : 1041 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 13) Server -> Client : 441 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 13) Server -> Client : 2430 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (129c:11d4)]   (Sid: 13) Client -> Server : 615 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 13) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 13) Server -> Client : 806 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent 第四步提交乘客信息 [Web Request      (129c:11d4)] "GET /WebTours/welcome.pl?signOff=1"   
+[Network Analyzer (129c:11d4)]   (Sid: 13) Client -> Server : 612 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 13) Server -> Client : 391 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 13) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer (129c:11d4)]   (Sid: 13) Client -> Server : 431 bytes (Service=HTTP)
+[Network Analyzer (129c:13e4)] Address lookup for vidya-PC = 192.168.1.103
+[Network Analyzer (129c:13e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (129c:11d4)]   (Sid: 13) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 13) Server -> Client : 1528 bytes  (Service=HTTP)
+[Web Request      (129c:11d4)] "GET /WebTours/home.html"   
+[Network Analyzer (129c:11d4)]   (Sid: 14) Client -> Server : 426 bytes (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 14) Server -> Client : 165 bytes  (Service=HTTP)
+[Network Analyzer (129c:11d4)]   (Sid: 14) Server -> Client : 1322 bytes  (Service=HTTP)

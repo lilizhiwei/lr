@@ -1,0 +1,5 @@
+Virtual User Script started at : 2018-04-17 20:21:25
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for Windows 7; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "C:\Users\Administrator\lr\111\\default.cfg"  	[MsgId: MMSG-27141]

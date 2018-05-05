@@ -1,0 +1,12 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/html
+StepName=Url: Search Flights Button
+Total=1
+FileName1=t6.html
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RequestBodyFile=t6_RequestBody.txt
+URL1=http://127.0.0.1:1080/WebTours/welcome.pl?page=search
+[AdditionalInfo]
+IsIgnorable=0

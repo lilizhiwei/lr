@@ -1,0 +1,107 @@
+[Network Analyzer ( d98: bf8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( d98: bf8)] Load Network Traffic Analyzers:
+[Network Analyzer ( d98: bf8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( d98: bf8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( d98: bf8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( d98: bf8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( d98: bf8)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer ( d98: bf8)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( d98: bf8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( d98: 6ac)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: bf8)] Establish Listener @ 127.0.0.1:11266
+[Network Analyzer ( d98: bf8)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: bf8)] Request Connection: Remote Server @ 127.0.0.1:11266   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( d98: bf8)] Accept Connection : Service @ 127.0.0.1:11266  ,  Remote Client @ 127.0.0.1:11267
+[Network Analyzer ( d98: 6ac)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( d98: 6ac)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Web Request      ( d98: 6ac)] "GET /WebTours/welcome.pl?signOff=true"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  4) Client -> Server : 383 bytes (Service=HTTP)
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( d98: 6ac)]   (Sid:  4) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  4) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      ( d98: 6ac)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  4) Client -> Server : 529 bytes (Service=HTTP)
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: 6ac)]   (Sid:  4) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  4) Server -> Client : 1532 bytes  (Service=HTTP)
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 35.167.184.4:443   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( d98: 6ac)] "GET /favicon.ico"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  4) Client -> Server : 452 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  4) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  4) Connection Terminated (by Server)
+[Web Request      ( d98: 6ac)] "GET /favicon.ico"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  6) Client -> Server : 452 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  6) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 35.160.9.151:443   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      ( d98: 6ac)] "POST /WebTours/login.pl"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Client -> Server : 706 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Server -> Client : 404 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Server -> Client : 437 bytes  (Service=HTTP)
+[Web Request      ( d98: 6ac)] "GET /WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Client -> Server : 683 bytes (Service=HTTP)
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Server -> Client : 1699 bytes  (Service=HTTP)
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Web Request      ( d98: 6ac)] "GET /WebTours/login.pl?intro=true"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Client -> Server : 678 bytes (Service=HTTP)
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 52.10.153.199:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 912 bytes  (Service=HTTP)
+[Network Analyzer ( d98: bc0)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Network Analyzer ( d98: bc0)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Net An. Error    ( d98:17b4)]   (Sid:  8) SSL handshake with remote server Failed!
+[Net An. Error    ( d98:1724)]   (Sid: 10) SSL handshake with remote server Failed!
+[Network Analyzer ( d98: 6ac)]   (Sid:  7) Connection Terminated (by Client)
+[Web Request      ( d98: 6ac)] "GET /WebTours/welcome.pl?page=search"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Client -> Server : 697 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Server -> Client : 560 bytes  (Service=HTTP)
+[Web Request      ( d98: 6ac)] "GET /WebTours/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Client -> Server : 700 bytes (Service=HTTP)
+[Web Request      ( d98: 6ac)] "GET /WebTours/reservations.pl?page=welcome"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Client -> Server : 701 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Server -> Client : 1699 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 4602 bytes  (Service=HTTP)
+[Web Request      ( d98: 6ac)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Client -> Server : 1005 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 2498 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  5) Connection Terminated (by Server)
+[Web Request      ( d98: 6ac)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Client -> Server : 895 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 3653 bytes  (Service=HTTP)
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 54.149.36.237:443   (Service=)  (Sid= 11)  PROXIED!
+[Net An. Error    ( d98:1948)]   (Sid: 11) SSL handshake with remote server Failed!
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 52.43.235.20:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( d98:1958)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Network Analyzer ( d98:1958)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Web Request      ( d98: 6ac)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Client -> Server : 1096 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 408 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 2418 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid: 12) Connection Terminated (by Client)
+[Web Request      ( d98: 6ac)] "POST /WebTours/reservations.pl"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Client -> Server : 762 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 4349 bytes  (Service=HTTP)
+[Web Request      ( d98: 6ac)] "GET /WebTours/welcome.pl?signOff=1"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Client -> Server : 674 bytes (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      ( d98: 6ac)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Client -> Server : 526 bytes (Service=HTTP)
+[Network Analyzer ( d98: e8c)] Address lookup for PC-20160404FIQS = 192.168.42.91
+[Network Analyzer ( d98: e8c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer ( d98: 6ac)]   (Sid:  9) Server -> Client : 1524 bytes  (Service=HTTP)

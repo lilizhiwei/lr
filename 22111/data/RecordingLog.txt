@@ -1,0 +1,77 @@
+[Network Analyzer (10b8: b94)] ------------------------------------------------------------------------------------------
+[Network Analyzer (10b8: b94)] Load Network Traffic Analyzers:
+[Network Analyzer (10b8: b94)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (10b8: b94)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (10b8: b94)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (10b8: b94)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (10b8: b94)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer (10b8: b94)]     Analyzer Module: local_server (value=)
+[Network Analyzer (10b8: b94)] ------------------------------------------------------------------------------------------
+[Network Analyzer (10b8:1b2c)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (10b8: b94)] Establish Listener @ 127.0.0.1:2855
+[Network Analyzer (10b8: b94)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (10b8: b94)] Request Connection: Remote Server @ 127.0.0.1:2855   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (10b8: b94)] Accept Connection : Service @ 127.0.0.1:2855  ,  Remote Client @ 127.0.0.1:2856
+[Network Analyzer (10b8:1b2c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (10b8:1b2c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (10b8:1e38)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Net An. Warning  (10b8:1e38)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  (10b8:1e38)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Warning  (10b8:1e38)] Request Connection: Remote Server @ 0.0.0.0:1080 (Service=?) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 0)
+[Net An. Error    (10b8:1e38)] Request Connection: Remote Server @ 0.0.0.0:1080   (Service=?)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 0)
+[Network Analyzer (10b8:1e38)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (10b8:1e38)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (10b8:1e38)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Web Request      (10b8:1b2c)] "GET /WebTours/"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Client -> Server : 368 bytes (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1e38)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (10b8:1b2c)] "GET /WebTours/header.html"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Client -> Server : 421 bytes (Service=HTTP)
+[Web Request      (10b8:1b2c)] "GET /WebTours/welcome.pl?signOff=true"   
+[Network Analyzer (10b8:1e38)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Client -> Server : 383 bytes (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1e38)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (10b8:1e38)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (10b8:1e38)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      (10b8:1b2c)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Client -> Server : 529 bytes (Service=HTTP)
+[Web Request      (10b8:1b2c)] "GET /WebTours/home.html"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  6) Client -> Server : 574 bytes (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  6) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Server -> Client : 1783 bytes  (Service=HTTP)
+[Web Request      (10b8:1b2c)] "GET /favicon.ico"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Client -> Server : 452 bytes (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  4) Connection Terminated (by Server)
+[Web Request      (10b8:1b2c)] "GET /favicon.ico"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  7) Client -> Server : 452 bytes (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  7) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  7) Connection Terminated (by Server)
+[Web Request      (10b8:1b2c)] "POST /WebTours/login.pl"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Client -> Server : 704 bytes (Service=HTTP)
+[Network Analyzer (10b8:1e38)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Server -> Client : 404 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Server -> Client : 437 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1e38)] Request Connection: Remote Server @ 35.166.234.151:443   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (10b8:1b2c)] "GET /WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Client -> Server : 683 bytes (Service=HTTP)
+[Web Request      (10b8:1b2c)] "GET /WebTours/login.pl?intro=true"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  6) Client -> Server : 678 bytes (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  6) Server -> Client : 1137 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Server -> Client : 1699 bytes  (Service=HTTP)
+[Net An. Error    (10b8:1c38)]   (Sid:  8) SSL handshake with remote server Failed!
+[Web Request      (10b8:1b2c)] "GET /WebTours/welcome.pl?signOff=1"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Client -> Server : 695 bytes (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      (10b8:1b2c)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Client -> Server : 526 bytes (Service=HTTP)
+[Web Request      (10b8:1b2c)] "GET /WebTours/home.html"   
+[Network Analyzer (10b8:1b2c)]   (Sid:  6) Client -> Server : 571 bytes (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  6) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (10b8:1b2c)]   (Sid:  5) Server -> Client : 1528 bytes  (Service=HTTP)

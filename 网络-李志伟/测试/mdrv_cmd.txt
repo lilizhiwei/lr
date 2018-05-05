@@ -1,0 +1,1 @@
+-usr "C:\Users\Administrator\lr\ÍøÂç-ÀîÖ¾Î°\²âÊÔ\²âÊÔ.usr" -compile_only -out "C:\Users\Administrator\lr\ÍøÂç-ÀîÖ¾Î°\²âÊÔ\" -drv_log_file "C:\Users\Administrator\lr\ÍøÂç-ÀîÖ¾Î°\²âÊÔ\mdrv.log" -cfg "C:\Users\Administrator\lr\ÍøÂç-ÀîÖ¾Î°\²âÊÔ\default.cfg" -product_name vugen

@@ -1,0 +1,11 @@
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Wed, 02 May 2018 14:15:28 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1075
+Content-type: text/html; charset=ISO-8859-1
+Date: Wed, 02 May 2018 14:15:28 GMT
+Expires: 5s
+Set-cookie: MTUserInfo=firstName&10&address2&10&username&jojo10&hash&16&lastName&10&address1&10&creditCard&&expDate&; path=/
+

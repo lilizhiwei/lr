@@ -1,0 +1,12 @@
+[t14]
+SnapshotXmlFile=snapshot_14.xml
+ContentType=text/html
+StepName=Url: nav.pl_4
+Total=1
+FileName1=t14.html
+RequestHeaderFile=t14_RequestHeader.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+RequestBodyFile=t14_RequestBody.txt
+URL1=http://127.0.0.1:1080/WebTours/nav.pl?in=home
+[AdditionalInfo]
+IsIgnorable=1

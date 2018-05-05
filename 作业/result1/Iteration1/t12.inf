@@ -1,0 +1,12 @@
+[t12]
+SnapshotXmlFile=snapshot_12.xml
+ContentType=text/html
+StepName=Submit Data: reservations.pl_5
+Total=1
+FileName1=t12.html
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+URL1=http://127.0.0.1:1080/WebTours/reservations.pl
+[AdditionalInfo]
+IsIgnorable=0

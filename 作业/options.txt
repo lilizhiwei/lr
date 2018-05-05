@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\lr\作业
+-IF:\LR\include
+-ec:\users\administrator\lr\作业\\logfile.log
+c:\users\administrator\lr\作业\\combined_作业.c
+c:\users\administrator\lr\作业\\pre_cci.c

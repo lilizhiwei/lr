@@ -1,0 +1,120 @@
+[Network Analyzer (1544:1594)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1544:1594)] Load Network Traffic Analyzers:
+[Network Analyzer (1544:1594)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1544:1594)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1544:1594)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1544:1594)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1544:1594)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer (1544:1594)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1544:1594)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1544:1690)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (1544:1594)] Establish Listener @ 127.0.0.1:1313
+[Network Analyzer (1544:1594)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (1544:1594)] Request Connection: Remote Server @ 127.0.0.1:1313   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1544:1594)] Accept Connection : Service @ 127.0.0.1:1313  ,  Remote Client @ 127.0.0.1:1314
+[Network Analyzer (1544:1690)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1544:1690)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (1544: e64)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (1544: e64)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1544: e64)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Web Request      (1544:1690)] "GET /WebTours/"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 368 bytes (Service=HTTP)
+[Network Analyzer (1544: e64)] Request Connection: Remote Server @ 35.167.184.4:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 126 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/header.html"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 421 bytes (Service=HTTP)
+[Network Analyzer (1544: e64)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (1544: e64)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (1544:1690)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 409 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 126 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/welcome.pl?signOff=true"   
+[Network Analyzer (1544:1690)]   (Sid:  6) Client -> Server : 383 bytes (Service=HTTP)
+[Network Analyzer (1544: e64)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (1544:1690)]   (Sid:  6) Server -> Client : 1058 bytes  (Service=HTTP)
+[Network Analyzer (1544: e64)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1544:1690)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer (1544:1690)]   (Sid:  6) Client -> Server : 529 bytes (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/home.html"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 574 bytes (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (1544:1690)]   (Sid:  7) Client -> Server : 410 bytes (Service=HTTP)
+[Network Analyzer (1544: e64)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  6) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  6) Server -> Client : 1526 bytes  (Service=HTTP)
+[Network Analyzer (1544: e64)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1544: e64)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (1544: e64)] Request Connection: Remote Server @ 52.37.48.84:443   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (1544:1690)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (1544:1690)]   (Sid:  6) Client -> Server : 546 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  6) Server -> Client : 126 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "GET /favicon.ico"   
+[Network Analyzer (1544:1690)]   (Sid:  6) Client -> Server : 452 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  6) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  6) Connection Terminated (by Server)
+[Web Request      (1544:1690)] "GET /favicon.ico"   
+[Network Analyzer (1544:1690)]   (Sid:  8) Client -> Server : 452 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  8) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (1544: e64)] Address lookup for PC-20160404FIQS = 172.20.10.2
+[Network Analyzer (1544: e64)] Request Connection: Remote Server @ 52.32.36.249:443   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (1544:1690)] "POST /WebTours/login.pl"   
+[Network Analyzer (1544:1690)]   (Sid:  7) Client -> Server : 701 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 404 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 437 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer (1544:1690)]   (Sid:  7) Client -> Server : 683 bytes (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/login.pl?intro=true"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 678 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 1137 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 1446 bytes  (Service=HTTP)
+[Network Analyzer (1544: a08)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Network Analyzer (1544: a08)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1, ciphers:DES-CBC3-SHA)
+[Web Request      (1544:1690)] "GET /WebTours/welcome.pl?page=search"   
+[Network Analyzer (1544:1690)]   (Sid:  7) Client -> Server : 697 bytes (Service=HTTP)
+[Net An. Error    (1544:16fc)]   (Sid:  9) SSL handshake with remote server Failed!
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 560 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/nav.pl?page=menu&in=flights"   
+[Network Analyzer (1544:1690)]   (Sid:  7) Client -> Server : 700 bytes (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/reservations.pl?page=welcome"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 701 bytes (Service=HTTP)
+[Net An. Error    (1544: 964)]   (Sid: 10) SSL handshake with remote server Failed!
+[Network Analyzer (1544:1690)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 4602 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 1446 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "POST /WebTours/reservations.pl"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 1005 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 2498 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "POST /WebTours/reservations.pl"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 895 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 3653 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "POST /WebTours/reservations.pl"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 1096 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 408 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 2418 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "POST /WebTours/reservations.pl"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 761 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 4349 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/welcome.pl?signOff=1"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 674 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 428 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 526 bytes (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/home.html"   
+[Network Analyzer (1544:1690)]   (Sid:  7) Client -> Server : 571 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  7) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 1532 bytes  (Service=HTTP)
+[Web Request      (1544:1690)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (1544:1690)]   (Sid:  4) Client -> Server : 546 bytes (Service=HTTP)
+[Network Analyzer (1544:1690)]   (Sid:  4) Server -> Client : 126 bytes  (Service=HTTP)
